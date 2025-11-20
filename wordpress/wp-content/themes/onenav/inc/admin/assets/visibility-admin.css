@@ -1,0 +1,102 @@
+/* 内容可见性管理后台样式 */
+
+/* 可见性标签样式 */
+.visibility-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.visibility-badge:hover {
+    color: #fff;
+}
+
+/* 不同权限类型的颜色 */
+.visibility-public { 
+    background-color: #28a745;
+}
+
+.visibility-logged-in { 
+    background-color: #007cba;
+}
+
+.visibility-purchase { 
+    background-color: #dc3545;
+}
+
+.visibility-vip1 { 
+    background-color: #fd7e14;
+}
+
+.visibility-vip2 { 
+    background-color: #6f42c1;
+}
+
+.visibility-admin { 
+    background-color: #343a40;
+}
+
+.visibility-default { 
+    background-color: #6c757d;
+}
+
+/* 筛选器样式 */
+#content_visibility_filter {
+    margin-left: 5px;
+    min-width: 120px;
+}
+
+/* 列宽调整 */
+.column-content_visibility {
+    width: 120px;
+}
+
+/* 仪表板小工具样式 */
+.visibility-dashboard-widget {
+    font-size: 13px;
+}
+
+.visibility-dashboard-widget table {
+    margin-bottom: 15px;
+}
+
+.visibility-dashboard-widget .text-right {
+    text-align: right;
+    font-weight: 500;
+}
+
+.visibility-dashboard-widget h4 {
+    margin: 10px 0 5px 0;
+    color: #23282d;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.visibility-dashboard-widget table td {
+    padding: 8px 12px;
+}
+
+.visibility-dashboard-widget table tr:hover {
+    background-color: #f9f9f9;
+}
+
+
+
+/* 响应式适配 */
+@media screen and (max-width: 782px) {
+    .column-content_visibility {
+        display: none;
+    }
+    
+    #content_visibility_filter {
+        margin: 5px 0;
+        display: block;
+        width: 100%;
+    }
+} 

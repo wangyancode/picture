@@ -1,0 +1,12 @@
+{
+    "require": {
+        "psr/http-message":"^1.1",
+        "yurunsoft/yurun-oauth-login": "~3.0",
+        "yurunsoft/pay-sdk": "~3.0"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}

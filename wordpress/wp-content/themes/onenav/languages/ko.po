@@ -1,0 +1,3718 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: One Nav\n"
+"POT-Creation-Date: 2025-03-26 02:20+0800\n"
+"PO-Revision-Date: 2025-03-26 02:21+0800\n"
+"Last-Translator: \n"
+"Language-Team: iowen\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/framework\n"
+"X-Poedit-SearchPathExcluded-1: inc/theme-settings.php\n"
+"X-Poedit-SearchPathExcluded-2: inc/meta-boxs.php\n"
+"X-Poedit-SearchPathExcluded-3: inc/meta-taxonomy.php\n"
+"X-Poedit-SearchPathExcluded-4: inc/classes\n"
+"X-Poedit-SearchPathExcluded-5: inc/meta-menu.php\n"
+"X-Poedit-SearchPathExcluded-6: inc/search-settings.php\n"
+"X-Poedit-SearchPathExcluded-7: inc/admin\n"
+"X-Poedit-SearchPathExcluded-8: inc/hot-search-option.php\n"
+"X-Poedit-SearchPathExcluded-9: inc/post-type.php\n"
+"X-Poedit-SearchPathExcluded-10: assets\n"
+"X-Poedit-SearchPathExcluded-11: iopay/assets\n"
+"X-Poedit-SearchPathExcluded-12: inc/configs\n"
+"X-Poedit-SearchPathExcluded-13: inc/functions/io-meta.php\n"
+
+#: 404.php:17
+msgid "抱歉，没有你要找的内容..."
+msgstr "죄송합니다, 당신이 찾고있는 것이 없습니다 ..."
+
+#: 404.php:19
+msgid "返回首页"
+msgstr "홈 페이지로 돌아갑니다"
+
+#: comments.php:28
+msgid "暂无评论"
+msgstr "코멘트가 없습니다"
+
+#: comments.php:28
+msgid "1 条评论"
+msgstr "댓글 1개"
+
+#: comments.php:28
+msgid "% 条评论"
+msgstr "% 댓글"
+
+#: comments.php:38
+msgid "您必须登录才能参与评论！"
+msgstr "댓글에 참여하려면 로그인해야 합니다!"
+
+#: comments.php:39
+msgid "立即登录"
+msgstr "지금 로그인"
+
+#: comments.php:52
+msgid "退出"
+msgstr "종료합니다"
+
+#: comments.php:72
+msgid "输入评论内容..."
+msgstr "댓글 입력..."
+
+#: comments.php:76 inc/functions/page/io-contribute.php:740
+#: inc/functions/uc/index.php:279
+msgid "昵称"
+msgstr "닉네임"
+
+#: comments.php:77 inc/functions/functions.php:290
+#: inc/functions/functions.php:398 inc/functions/io-login.php:251
+#: inc/functions/io-user.php:505
+msgid "邮箱"
+msgstr "사서함입니다"
+
+#: comments.php:83
+msgid "再想想"
+msgstr "다시 생각해 보십시오"
+
+#: comments.php:85
+msgid "发表评论"
+msgstr "댓글을 달다"
+
+#: comments.php:95
+msgid "评论已关闭..."
+msgstr "댓글이 닫혔습니다..."
+
+#: comments.php:109 inc/functions/page/io-author.php:529
+msgid "暂无评论..."
+msgstr "코멘트없음..."
+
+#: go.php:33 template-contribute.php:162
+msgid "加载中"
+msgstr "로드 중입니다"
+
+#: go.php:40
+msgid "参数缺失，正在返回首页..."
+msgstr "매개 변수가 누락되어 홈 페이지로 돌아갑니다..."
+
+#: go.php:46
+msgid "危险..."
+msgstr "위험..."
+
+#: go.php:61
+msgid "安全中心"
+msgstr "보안 센터"
+
+#: go.php:85
+msgid "请注意您的账号和财产安全"
+msgstr "계정 및 재산의 안전을 확인합니다"
+
+#: go.php:86
+#, php-format
+msgid "您即将离开%s，去往：%s"
+msgstr "당신은 %s 떠날거야, 이동 : %s"
+
+#: go.php:88
+msgid "目标网址未通过安全检查"
+msgstr "대상 URL이 보안 검사에 실패했습니다"
+
+#: go.php:89
+msgid "已中止跳转，即将返回首页！"
+msgstr "점프가 중단되었으며 홈 페이지로 돌아갑니다!"
+
+#: go.php:108
+#, php-format
+msgid "%s秒后自动跳转"
+msgstr "%s 초 후에 자동으로 점프합니다"
+
+#: go.php:125
+msgid "继续"
+msgstr "계속하십시오"
+
+#: inc/action/ajax-app.php:47 inc/action/ajax-book.php:62
+#: inc/action/ajax-sites.php:65
+msgid "简介必须填写！"
+msgstr "소개는 반드시 기입해야 합니다!"
+
+#: inc/action/ajax-app.php:50 inc/action/ajax-book.php:65
+#: inc/action/ajax-sites.php:68
+#, php-format
+msgid "简介长度不得超过%s字。"
+msgstr "브리핑의 길이는 %s 단어를 초과할 수 없습니다."
+
+#: inc/action/ajax-app.php:56
+msgid "版本号不能为空！"
+msgstr "버전 번호는 비워 둘 수 없습니다!"
+
+#: inc/action/ajax-app.php:59
+#, php-format
+msgid "版本(%s)里的下载地址不能为空！"
+msgstr "버전(%s)의 다운로드 주소는 비워 둘 수 없습니다!"
+
+#: inc/action/ajax-app.php:65
+#, php-format
+msgid "版本(%s)里的下载列表有名称或者链接为空！"
+msgstr "버전 (%s)의 다운로드 목록에 이름 또는 빈 링크가 있습니다!"
+
+#: inc/action/ajax-app.php:69
+#, php-format
+msgid "版本(%s)里没有添加下载列表！"
+msgstr "버전(%s)에 추가된 다운로드 목록이 없습니다!"
+
+#: inc/action/ajax-app.php:84 inc/action/ajax-book.php:103
+#: inc/action/ajax-post.php:317 inc/action/ajax-sites.php:83
+msgid "您没有权限编辑此文章！"
+msgstr "이 문서를 편집할 수 있는 권한이 없습니다!"
+
+#: inc/action/ajax-app.php:94 inc/action/ajax-book.php:113
+#: inc/action/ajax-post.php:327 inc/action/ajax-sites.php:99
+#: inc/action/ajax-user.php:183
+msgid "请先登录！"
+msgstr "먼저 로그인해 주세요!"
+
+#: inc/action/ajax-app.php:179 inc/functions/functions.php:1399
+#: inc/functions/page/io-contribute.php:948
+#: inc/functions/page/io-contribute.php:1198
+msgid "描述"
+msgstr "묘사하다"
+
+#: inc/action/ajax-app.php:180 inc/functions/functions.php:1400
+#: inc/functions/page/io-contribute.php:939
+#: inc/functions/page/io-contribute.php:1192
+msgid "提取码"
+msgstr "코드를 추출합니다"
+
+#: inc/action/ajax-app.php:181 inc/functions/functions.php:1401
+#: inc/functions/io-single-app.php:98 inc/functions/io-single-app.php:305
+#: inc/functions/io-single-site.php:570 inc/functions/io-tool.php:1140
+msgid "下载"
+msgstr "다운로드합니다"
+
+#: inc/action/ajax-app.php:194 inc/action/ajax-app.php:195
+#: inc/functions/functions.php:1411 inc/functions/functions.php:1412
+#: iopay/functions/iopay-post.php:265
+msgid "无"
+msgstr "없음"
+
+#: inc/action/ajax-app.php:202 inc/functions/functions.php:1422
+#: inc/functions/io-theme.php:369
+msgid "没有内容"
+msgstr "콘텐츠가 없습니다"
+
+#: inc/action/ajax-app.php:208 inc/functions/functions.php:1429
+msgid "声明："
+msgstr "면책 조항:"
+
+#: inc/action/ajax-attachments.php:25 inc/action/ajax-attachments.php:93
+#: inc/action/ajax-attachments.php:229 inc/action/ajax-attachments.php:292
+#: inc/action/ajax-attachments.php:318 inc/action/ajax.php:395
+msgid "请先登录"
+msgstr "먼저 로그인하십시오."
+
+#: inc/action/ajax-attachments.php:29 inc/action/ajax-post.php:24
+#: inc/action/ajax-user.php:179 inc/action/ajax-user.php:490
+#: inc/action/ajax.php:217 inc/action/ajax.php:386 inc/action/ajax.php:857
+#: inc/action/ajax.php:1027
+msgid "安全检查失败，请刷新或稍后再试！"
+msgstr "죄송합니다! 보안 검사를 받지 못했습니다"
+
+#: inc/action/ajax-attachments.php:78
+msgid "没有文件上传"
+msgstr "파일 업로드가 없습니다."
+
+#: inc/action/ajax-attachments.php:213
+#, php-format
+msgid "文件 %s 上传成功"
+msgstr "파일 %s이 성공적으로 업로드되었습니다."
+
+#: inc/action/ajax-attachments.php:273
+msgid "没有图片"
+msgstr "사진이 없습니다"
+
+#: inc/action/ajax-attachments.php:275
+msgid "没有更多图片"
+msgstr "더 이상 사진이 없습니다."
+
+#: inc/action/ajax-attachments.php:297
+msgid "附件不存在"
+msgstr "첨부 파일이 없습니다."
+
+#: inc/action/ajax-attachments.php:300
+msgid "你没有权限删除该附件"
+msgstr "첨부 파일을 삭제할 수 있는 권한이 없습니다."
+
+#: inc/action/ajax-attachments.php:303
+msgid "附件删除成功"
+msgstr "첨부 파일이 성공적으로 삭제되었습니다."
+
+#: inc/action/ajax-attachments.php:411
+msgid "普通图片"
+msgstr "일반 사진"
+
+#: inc/action/ajax-attachments.php:414
+msgid "网址图标"
+msgstr "URL 아이콘"
+
+#: inc/action/ajax-attachments.php:417
+msgid "app图标"
+msgstr "앱 아이콘"
+
+#: inc/action/ajax-attachments.php:420
+msgid "书籍封面"
+msgstr "책 표지"
+
+#: inc/action/ajax-attachments.php:423
+#: inc/functions/page/io-contribute.php:1027
+#: inc/functions/page/io-contribute.php:1041
+msgid "截图"
+msgstr "스크린 샷"
+
+#: inc/action/ajax-attachments.php:426
+msgid "网址截图"
+msgstr "URL의 스크린샷"
+
+#: inc/action/ajax-attachments.php:435
+msgid "未定义"
+msgstr "정의"
+
+#: inc/action/ajax-book.php:50
+msgid "请选择期刊类型！"
+msgstr "저널 유형을 선택해 주세요!"
+
+#: inc/action/ajax-book.php:54
+msgid "请填写评分，或者填 0 ！"
+msgstr "등급을 입력하거나 0을 입력하세요!"
+
+#: inc/action/ajax-book.php:56
+msgid "请填写评分的来源平台！"
+msgstr "등급의 소스 플랫폼을 입력해 주세요!"
+
+#: inc/action/ajax-book.php:72
+msgid "有元数据的内容没有填写完整！"
+msgstr "메타데이터가 있는 콘텐츠가 채워지지 않았습니다!"
+
+#: inc/action/ajax-book.php:80
+msgid "下载链接的名称和链接不能为空！"
+msgstr "다운로드 링크와 링크의 이름은 비워 둘 수 없습니다!"
+
+#: inc/action/ajax-book.php:88
+msgid "渠道的名称和链接不能为空！"
+msgstr "채널의 이름과 링크는 비워 둘 수 없습니다!"
+
+#: inc/action/ajax-post.php:21
+msgid "投稿功能已关闭"
+msgstr "기여 기능이 꺼져 있습니다"
+
+#: inc/action/ajax-post.php:27
+#, php-format
+msgid "您投稿也太勤快了吧，“%s”秒后再试！"
+msgstr "기고도 너무 부지런하셨네요%s 초 후에 다시 시도해 보세요!"
+
+#: inc/action/ajax-post.php:46
+msgid "请填写文章标题"
+msgstr "기사 제목을 기입해 주십시오"
+
+#: inc/action/ajax-post.php:47
+msgid "标题太短！"
+msgstr "제목이 너무 짧습니다!"
+
+#: inc/action/ajax-post.php:48
+#, php-format
+msgid "标题太长了，不能超过%s个字"
+msgstr "제목이 너무 길어서 %s 단어를 초과할 수 없습니다"
+
+#: inc/action/ajax-post.php:51 inc/action/ajax-sites.php:38
+#: inc/functions/io-single-site.php:258 inc/functions/io-single-site.php:645
+msgid "公众号"
+msgstr "공공 번호"
+
+#: inc/action/ajax-post.php:53
+#, php-format
+msgid "请填写%s名称"
+msgstr "이름을 기입해 주세요 %s"
+
+#: inc/action/ajax-post.php:54
+#, php-format
+msgid "%s名称太短！"
+msgstr "%s 이름이 너무 짧습니다!"
+
+#: inc/action/ajax-post.php:55
+#, php-format
+msgid "%s名称太长了，不能超过%s个字"
+msgstr "%s 이름이 너무 길어서 %s 단어를 초과할 수 없습니다."
+
+#: inc/action/ajax-post.php:63
+msgid "还未填写任何内容"
+msgstr "아직 아무 것도 채워지지 않았습니다"
+
+#: inc/action/ajax-post.php:67
+msgid "文章内容过少"
+msgstr "글 내용이 너무 적다"
+
+#: inc/action/ajax-post.php:79 inc/functions/page/io-contribute.php:565
+msgid "请选择分类"
+msgstr "카테고리를 선택하세요."
+
+#: inc/action/ajax-post.php:83
+#, php-format
+msgid "分类不能超过%s个！"
+msgstr "카테고리 %s개 이하!"
+
+#: inc/action/ajax-post.php:88
+#, php-format
+msgid "标签不能超过%s个！"
+msgstr "라벨은 %s 개 이상일 수 없습니다!"
+
+#: inc/action/ajax-post.php:96
+msgid "请输入昵称！"
+msgstr "닉네임을 입력하십시오!"
+
+#: inc/action/ajax-post.php:99
+msgid "请输入联系方式！"
+msgstr "연락처 정보를 입력하십시오!"
+
+#: inc/action/ajax-post.php:193
+msgid "投稿失败！"
+msgstr "기여실패!"
+
+#: inc/action/ajax-post.php:222
+msgid "投稿成功！"
+msgstr "기고 성공!"
+
+#: inc/action/ajax-post.php:225 inc/action/ajax-user.php:515
+msgid "保存成功！"
+msgstr "저장 성공!"
+
+#: inc/action/ajax-post.php:227
+msgid "审核通过！"
+msgstr "승인!"
+
+#: inc/action/ajax-post.php:229
+msgid "已保存草稿！"
+msgstr "초안이 저장되었습니다!"
+
+#: inc/action/ajax-sites.php:36 inc/functions/io-theme.php:605
+msgid "网站"
+msgstr "웹 사이트"
+
+#: inc/action/ajax-sites.php:50
+msgid "存在相同的名称，请不要重复提交哦！"
+msgstr "같은 이름이 존재, 오 제출을 반복하지 마십시오!"
+
+#: inc/action/ajax-sites.php:54
+msgid "链接必须填写！"
+msgstr "링크를 작성해야 합니다!"
+
+#: inc/action/ajax-sites.php:57 inc/action/ajax.php:359
+msgid "存在相同的链接地址，请不要重复提交哦！"
+msgstr "동일한 링크 주소가 존재, 오 제출을 반복하지 마십시오!"
+
+#: inc/action/ajax-sites.php:60
+msgid "链接必须符合URL格式。"
+msgstr "링크는 URL 형식과 일치해야 합니다."
+
+#: inc/action/ajax-sites.php:72
+msgid "必须添加微信号。"
+msgstr "마이크로 신호가 추가되어야 합니다."
+
+#: inc/action/ajax-user.php:23 inc/action/ajax-user.php:230
+msgid "请认真填写表单！"
+msgstr "양식을 작성하십시오!"
+
+#: inc/action/ajax-user.php:36
+msgid "未找到此手机号注册账户!"
+msgstr "이 전화번호에 대한 계정을 찾을 수 없습니다!"
+
+#: inc/action/ajax-user.php:51
+msgid "用户名或密码错误，请重试!"
+msgstr "사용자 이름 또는 암호가 잘못되었습니다."
+
+#: inc/action/ajax-user.php:68
+msgid "登录成功，跳转中！"
+msgstr "로그인 성공, 점프!"
+
+#: inc/action/ajax-user.php:85
+msgid "请输入用户名！"
+msgstr "사용자 이름을 입력하십시오!"
+
+#: inc/action/ajax-user.php:87
+msgid "用户名长度至少5位!"
+msgstr "사용자 이름 길이가 5비트 이상입니다!"
+
+#: inc/action/ajax-user.php:89
+msgid "此用户名包含无效字符，只能使用字母数字下划线！"
+msgstr "이 사용자 이름에 잘못된 문자가 포함되어 있습니다."
+
+#: inc/action/ajax-user.php:91
+msgid "该用户名已被注册，请再选择一个！"
+msgstr "사용자 이름이 등록되었습니다, 다른 것을 선택하십시오!"
+
+#: inc/action/ajax-user.php:104 inc/action/ajax-user.php:328
+msgid "该电子邮件地址已经被注册，请换一个！"
+msgstr "이메일 주소가 등록되었습니다."
+
+#: inc/action/ajax-user.php:107 inc/action/ajax-user.php:331
+#: inc/action/ajax-user.php:628 inc/action/ajax-user.php:675
+msgid "该手机号已有绑定帐号！"
+msgstr "이 휴대폰 번호에는 이미 연결된 계정이 있습니다!"
+
+#: inc/action/ajax-user.php:112 inc/action/ajax-user.php:235
+#: inc/action/ajax.php:523 inc/action/ajax.php:958 inc/action/ajax.php:980
+#: inc/action/ajax.php:1002 inc/action/ajax.php:1007 inc/action/ajax.php:1039
+#: inc/action/ajax.php:1090 inc/action/ajax.php:1115 inc/action/ajax.php:1135
+#: inc/action/ajax.php:1163 inc/action/ajax.php:1171 inc/action/ajax.php:1187
+#: inc/action/ajax.php:1192 inc/action/ajax.php:1211 inc/action/ajax.php:1216
+#: inc/action/ajax.php:1249 inc/action/ajax.php:1259
+#: inc/functions/functions.php:191
+msgid "数据错误！"
+msgstr "데이터 오류!"
+
+#: inc/action/ajax-user.php:115
+msgid "邮箱怎么变了！"
+msgstr "사서함이 변경되었습니다!"
+
+#: inc/action/ajax-user.php:118
+msgid "请输入验证码！"
+msgstr "인증번호를 입력하십시오"
+
+#: inc/action/ajax-user.php:120 inc/action/ajax-user.php:237
+msgid "验证码不正确！"
+msgstr "확인 코드가 올바르지 않습니다!"
+
+#: inc/action/ajax-user.php:126 inc/action/ajax-user.php:369
+#: inc/action/ajax-user.php:440
+msgid "密码长度至少6位!"
+msgstr "암호 길이는 적어도 6 자리입니다!"
+
+#: inc/action/ajax-user.php:128 inc/action/ajax-user.php:372
+#: inc/action/ajax-user.php:443
+msgid "密码不一致!"
+msgstr "암호가 일치하지 않습니다!"
+
+#: inc/action/ajax-user.php:167
+msgid "注册成功，跳转中！"
+msgstr "등록 성공, 점프!"
+
+#: inc/action/ajax-user.php:190
+msgid "昵称不能有特殊字符！"
+msgstr "닉네임에는 특수 문자를 사용할 수 없습니다!"
+
+#: inc/action/ajax-user.php:216
+msgid "资料修改成功！"
+msgstr "데이터 수정 성공!"
+
+#: inc/action/ajax-user.php:287 inc/action/ajax-user.php:310
+msgid "绑定成功！"
+msgstr "바인딩 성공!"
+
+#: inc/action/ajax-user.php:292
+msgid "非法请求!"
+msgstr "불법 요청!"
+
+#: inc/action/ajax-user.php:348
+msgid "该电子邮件尚未注册！"
+msgstr "이메일이 등록되지 않았습니다!"
+
+#: inc/action/ajax-user.php:351
+msgid "该手机号尚未注册！"
+msgstr "전화 번호는 아직 등록되지 않았습니다!"
+
+#: inc/action/ajax-user.php:366 inc/action/ajax-user.php:437
+msgid "密码不能为空"
+msgstr "암호는 비워 둘 수 없습니다."
+
+#: inc/action/ajax-user.php:400
+msgid "未查询到您的帐号信息"
+msgstr "계정 정보를 찾을 수 없습니다."
+
+#: inc/action/ajax-user.php:423
+msgid "密码修改成功！"
+msgstr "암호 수정이 성공했습니다!"
+
+#: inc/action/ajax-user.php:434 inc/action/ajax-user.php:522
+#: inc/action/ajax-user.php:535 inc/action/ajax-user.php:565
+#: inc/action/ajax-user.php:601 inc/action/ajax-user.php:643
+#: inc/action/ajax-user.php:727 inc/action/ajax.php:587
+#: iopay/functions/iopay-ajax.php:171
+msgid "请先登录!"
+msgstr "먼저 로그인해야 소장할 수 있습니다!"
+
+#: inc/action/ajax-user.php:454
+msgid "请输入原密码!"
+msgstr "원래 비밀번호를 입력하세요!"
+
+#: inc/action/ajax-user.php:458
+msgid "新密码和原密码不能相同!"
+msgstr "새 암호와 이전 암호는 같을 수 없습니다!"
+
+#: inc/action/ajax-user.php:462
+msgid "原密码错误!"
+msgstr "인증 코드 오류!"
+
+#: inc/action/ajax-user.php:495
+msgid "无权修改！"
+msgstr "수정할 권리가 없습니다!"
+
+#: inc/action/ajax-user.php:538 inc/action/ajax-user.php:569
+#: inc/action/ajax-user.php:604
+msgid "参数错误！"
+msgstr "매개 변수 오류!"
+
+#: inc/action/ajax-user.php:545 inc/action/ajax-user.php:576
+msgid "用户邮箱错误，请联系管理员。"
+msgstr "사용자 사서함이 잘못되었습니다. 관리자에게 문의하십시오."
+
+#: inc/action/ajax-user.php:550 inc/action/ajax-user.php:581
+msgid "未找到绑定的手机号。"
+msgstr "바인딩된 전화 번호를 찾을 수 없습니다."
+
+#: inc/action/ajax-user.php:617 inc/action/ajax-user.php:661
+msgid "不能与现在的邮箱相同！"
+msgstr "현재 사서함과 같을 수 없습니다!"
+
+#: inc/action/ajax-user.php:620 inc/action/ajax-user.php:665
+msgid "该邮箱已有绑定帐号！"
+msgstr "이 이메일 주소에는 이미 연결된 계정이 있습니다!"
+
+#: inc/action/ajax-user.php:625 inc/action/ajax-user.php:671
+msgid "不能与现在的手机号相同！"
+msgstr "현재 휴대폰 번호와 같을 수 없습니다!"
+
+#: inc/action/ajax-user.php:732
+msgid "没有文件上传!"
+msgstr "파일 업로드가 없습니다!"
+
+#: inc/action/ajax-user.php:735 inc/action/ajax.php:590
+#: inc/functions/functions.php:287
+msgid "参数错误!"
+msgstr "매개 변수가 잘못되었습니다!"
+
+#: inc/action/ajax-user.php:741
+msgid "文件类型错误!"
+msgstr "파일 형식이 잘못되었습니다!"
+
+#: inc/action/ajax-user.php:747
+#, php-format
+msgid "文件大小不能超过 %sKB!"
+msgstr "파일 크기는 %sKB를 초과할 수 없습니다!"
+
+#: inc/action/ajax-user.php:760
+msgid "文件保存失败!"
+msgstr "파일 저장에 실패했습니다!"
+
+#: inc/action/ajax-user.php:779
+msgid "图片上传成功!"
+msgstr "이미지가 성공적으로 업로드되었습니다!"
+
+#: inc/action/ajax.php:141 inc/action/ajax.php:162
+#: inc/functions/io-widgets.php:52 inc/functions/io-widgets.php:111
+#: inc/functions/io-widgets.php:169 inc/functions/io-widgets.php:215
+msgid "没有数据！"
+msgstr "데이터가 없습니다!"
+
+#: inc/action/ajax.php:173 inc/functions/io-tool.php:429
+#: inc/functions/page/io-rankings.php:171
+msgid "今天"
+msgstr "오늘"
+
+#: inc/action/ajax.php:201 inc/functions/page/io-author.php:429
+#: inc/functions/page/io-author.php:520 inc/functions/uc/index.php:469
+#: inc/functions/uc/index.php:527 inc/widgets/w.big.posts.php:211
+#: inc/widgets/w.tabs.php:215 template-contribute.php:170
+msgid "加载更多"
+msgstr "더 불러오기"
+
+#: inc/action/ajax.php:203 inc/functions/io-post.php:380
+msgid "没有了"
+msgstr "없이"
+
+#: inc/action/ajax.php:245 inc/inc.php:1697
+msgid "您的评论需要审核后才能显示！"
+msgstr "댓글이 표시하려면 검토가 필요합니다!"
+
+#: inc/action/ajax.php:362
+msgid "没有重复地址，可以提交！"
+msgstr "중복 주소가 없습니다, 당신은 제출 할 수 있습니다!"
+
+#: inc/action/ajax.php:365
+msgid "请填写地址！"
+msgstr "주소를 기입해 주십시오!"
+
+#: inc/action/ajax.php:381
+msgid "参数错误"
+msgstr "매개변수가 잘못되었습니다."
+
+#: inc/action/ajax.php:390 iopay/action/ajax-pay.php:23
+#: iopay/action/ajax-posts.php:22
+msgid "参数异常"
+msgstr "매개변수가 비정상입니다."
+
+#: inc/action/ajax.php:400
+msgid "收藏成功"
+msgstr "컬렉션 성공"
+
+#: inc/action/ajax.php:400
+msgid "谢谢点赞"
+msgstr "엄지 척 해주셔서 감사합니다"
+
+#: inc/action/ajax.php:401
+msgid "已取消收藏"
+msgstr "즐겨찾기는 선호되지 않았습니다."
+
+#: inc/action/ajax.php:401
+msgid "已取消点赞"
+msgstr "좋아요가 취소되었습니다."
+
+#: inc/action/ajax.php:485 inc/action/ajax.php:712
+msgid "反馈成功"
+msgstr "피드백이 성공했습니다"
+
+#: inc/action/ajax.php:541 inc/action/ajax.php:543
+msgid "移动端"
+msgstr "UC 모바일 검색"
+
+#: inc/action/ajax.php:541 inc/action/ajax.php:543
+msgid "合计"
+msgstr "합계입니다"
+
+#: inc/action/ajax.php:541
+msgid "下载量"
+msgstr "다운로드합니다"
+
+#: inc/action/ajax.php:577
+msgid "没有查询到数据！"
+msgstr "쿼리된 데이터가 없습니다!"
+
+#: inc/action/ajax.php:593
+msgid "权限不足!"
+msgstr "권한이 충분하지 않습니다!"
+
+#: inc/action/ajax.php:596
+msgid "请先绑定邮箱！"
+msgstr "사서함을 바인딩합니다"
+
+#: inc/action/ajax.php:612
+msgid "已解除绑定"
+msgstr "바인딩이 해제되었습니다"
+
+#: inc/action/ajax.php:781
+msgid "已添加"
+msgstr "추가되었습니다"
+
+#: inc/action/ajax.php:781 templates/tools-customize.php:89
+#: templates/tools-customizeforuser.php:274
+msgid "添加"
+msgstr "추가합니다"
+
+#: inc/action/ajax.php:795 inc/action/ajax.php:860 inc/action/ajax.php:910
+#: inc/action/ajax.php:953 inc/action/ajax.php:976 inc/action/ajax.php:994
+#: inc/action/ajax.php:1030 inc/action/ajax.php:1086 inc/action/ajax.php:1109
+#: inc/action/ajax.php:1129 inc/action/ajax.php:1158 inc/action/ajax.php:1183
+#: inc/action/ajax.php:1206
+msgid "请登录！"
+msgstr "로그인하십시오!"
+
+#: inc/action/ajax.php:842 templates/tools-customize.php:44
+#: templates/tools-customizeforuser.php:116
+#: templates/tools-customizeforuser.php:168
+#: templates/tools-customizeforuser.php:191
+msgid "没有数据！点右上角编辑添加网址"
+msgstr ""
+"데이터가 없습니다! 포인트 오른쪽 상단 모서리에 있는 URL 추가를 편집합니다"
+
+#: inc/action/ajax.php:871 inc/action/ajax.php:887 inc/action/ajax.php:917
+#: inc/action/ajax.php:930
+msgid "内容错误！"
+msgstr "내용이 잘못되었습니다!"
+
+#: inc/action/ajax.php:873
+msgid "网址内容不能为空！"
+msgstr "URL 콘텐츠는 비어 있을 수 없습니다!"
+
+#: inc/action/ajax.php:878 inc/action/ajax.php:921 inc/action/ajax.php:1094
+msgid "分类名称已经存在，不能再新建！"
+msgstr "범주 이름이 이미 있으며 더 이상 만들 수 없습니다!"
+
+#: inc/action/ajax.php:890 inc/action/ajax.php:1013
+msgid "当前分类下已经存在同样的 URL 地址！"
+msgstr "동일한 URL 주소가 현재 분류 아래에 이미 있습니다!"
+
+#: inc/action/ajax.php:893 inc/action/ajax.php:1016
+msgid "当前分类下已经存在同样名称的网址！"
+msgstr "동일한 이름의 URL이 현재 분류 아래에 이미 있습니다!"
+
+#: inc/action/ajax.php:901 inc/action/ajax.php:1101
+msgid "添加成功！"
+msgstr "추가에 성공했습니다."
+
+#: inc/action/ajax.php:904 inc/action/ajax.php:945 inc/action/ajax.php:1080
+msgid "添加失败！"
+msgstr "추가에 실패했습니다!"
+
+#: inc/action/ajax.php:943
+#, php-format
+msgid "成功添加 %s 个网址。"
+msgstr "%s URL이 성공적으로 추가되었습니다."
+
+#: inc/action/ajax.php:966 inc/action/ajax.php:1150
+msgid "删除成功！"
+msgstr "삭제 성공!"
+
+#: inc/action/ajax.php:968 inc/action/ajax.php:988 inc/action/ajax.php:1021
+#: inc/action/ajax.php:1103 inc/action/ajax.php:1123 inc/action/ajax.php:1152
+#: inc/action/ajax.php:1176
+msgid "操作失败，稍后再试！"
+msgstr "작업이 실패했습니다."
+
+#: inc/action/ajax.php:1009
+msgid "网址没有变化！"
+msgstr "이름은 변경되지 않았습니다!"
+
+#: inc/action/ajax.php:1019 inc/action/ajax.php:1121
+msgid "修改成功！"
+msgstr "수정 성공!"
+
+#: inc/action/ajax.php:1078
+#, php-format
+msgid "成功添加 %s 个分类，%s 个网址。"
+msgstr ""
+"%s 개의 카테고리가 성공적으로 추가되었으며 %s 개의 URL이 추가되었습니다."
+
+#: inc/action/ajax.php:1119
+msgid "分类名称已经存在！"
+msgstr "분류 이름이 이미 있습니다!"
+
+#: inc/action/ajax.php:1146
+msgid "此分类内包含网址，无法删除！"
+msgstr "이 분류에는 URL이 포함되어 있으며 삭제할 수 없습니다!"
+
+#: inc/action/ajax.php:1174
+msgid "移动成功"
+msgstr "이동에 성공했습니다"
+
+#: inc/action/ajax.php:1244
+msgid "请先筛选到分类再排序！"
+msgstr "정렬하기 전에 분류로 필터링하십시오!"
+
+#: inc/auth/baidu-callback.php:28 inc/auth/dyh-callback.php:53
+#: inc/auth/gitee-callback.php:28 inc/auth/github-callback.php:28
+#: inc/auth/gzh-callback.php:42 inc/auth/gzh-callback.php:164
+#: inc/auth/qq-callback.php:28 inc/auth/sina-callback.php:28
+#: inc/auth/wechat-callback.php:27
+msgid "绑定失败"
+msgstr "바인딩 실패"
+
+#: inc/auth/baidu-callback.php:28 inc/auth/dyh-callback.php:53
+#: inc/auth/gitee-callback.php:28 inc/auth/github-callback.php:28
+#: inc/auth/gzh-callback.php:42 inc/auth/gzh-callback.php:164
+#: inc/auth/qq-callback.php:28 inc/auth/sina-callback.php:28
+#: inc/auth/wechat-callback.php:27
+msgid "登录失败"
+msgstr "로그인 실패"
+
+#: inc/auth/baidu-callback.php:55 inc/auth/gitee-callback.php:55
+#: inc/auth/github-callback.php:51 inc/auth/gzh-callback.php:69
+#: inc/auth/qq-callback.php:53 inc/auth/sina-callback.php:56
+#: inc/auth/wechat-callback.php:55
+msgid "处理错误"
+msgstr "오류 처리"
+
+#: inc/auth/dyh.php:28 inc/auth/gzh.php:36 inc/functions/io-login.php:471
+#: inc/functions/io-login.php:492 inc/functions/io-login.php:507
+#: inc/functions/io-login.php:569 inc/functions/io-user.php:949
+#: inc/open-login.php:78 inc/shortcode.php:245 templates/login.php:39
+msgid "登录"
+msgstr "로그인"
+
+#: inc/auth/dyh.php:28 inc/auth/gzh.php:36 inc/functions/io-login.php:475
+#: inc/functions/io-login.php:492 inc/functions/io-login.php:535
+#: inc/functions/io-login.php:565 inc/functions/io-user.php:950
+#: templates/login.php:24
+msgid "注册"
+msgstr "가입하기"
+
+#: inc/auth/gzh-callback.php:158 inc/functions/io-login.php:276
+msgid "参数传入错误"
+msgstr "인수가 오류를 전달했습니다"
+
+#: inc/functions/functions.php:219
+msgid "排序成功！"
+msgstr "정렬 성공!"
+
+#: inc/functions/functions.php:229
+#, php-format
+msgid "找到 %s 个相关内容"
+msgstr "%s 관련 콘텐츠 찾기"
+
+#: inc/functions/functions.php:256
+#, php-format
+msgid "「%s」邮箱验证码"
+msgstr "\"%s\" 이메일 확인 코드"
+
+#: inc/functions/functions.php:260
+msgid "发送成功，请前往邮箱查看！"
+msgstr "성공적으로 전송되었으니 우편함으로 이동하여 확인하세요!"
+
+#: inc/functions/functions.php:262
+msgid "发送验证码失败，请稍后再尝试。"
+msgstr "확인 코드를 보내지 못했습니다."
+
+#: inc/functions/functions.php:268
+msgid "短信已发送"
+msgstr "SMS 전송"
+
+#: inc/functions/functions.php:291 inc/functions/functions.php:399
+#: inc/functions/io-login.php:254 inc/functions/io-user.php:511
+msgid "手机号"
+msgstr "휴대폰 번호"
+
+#: inc/functions/functions.php:294
+#, php-format
+msgid "请输入%s验证码"
+msgstr "인증 코드를 입력%s"
+
+#: inc/functions/functions.php:352
+msgid "图形验证码"
+msgstr "그래픽 캡챠"
+
+#: inc/functions/functions.php:354
+msgid "点击刷新"
+msgstr "새로 고침을 클릭합니다"
+
+#: inc/functions/functions.php:404
+#, php-format
+msgid "%s验证码错误！"
+msgstr "%s Captcha 오류!"
+
+#: inc/functions/functions.php:409
+#, php-format
+msgid "%s验证码已过期"
+msgstr "%s 인증 코드가 만료되었습니다."
+
+#: inc/functions/functions.php:412
+#, php-format
+msgid "%s验证码效验成功"
+msgstr "%s 인증 코드가 유효합니다."
+
+#: inc/functions/functions.php:581
+msgid "请求失败,请再试一次！"
+msgstr "요청이 실패했습니다."
+
+#: inc/functions/functions.php:910
+msgid "权限不足"
+msgstr "권한 부족"
+
+#: inc/functions/functions.php:911
+msgid "此内容已隐藏，请登录后查看！"
+msgstr "이 내용은 숨겨져 있으니 로그인 후 확인해주세요!"
+
+#: inc/functions/functions.php:912
+msgid "登录查看"
+msgstr "보려면 로그인하세요"
+
+#: inc/functions/functions.php:921 inc/shortcode.php:247
+#: iopay/functions/functions.php:233
+msgid "付费阅读"
+msgstr "읽기 위해 지불"
+
+#: inc/functions/functions.php:922 iopay/functions/iopay-post.php:310
+msgid "此内容已隐藏，请购买后查看！"
+msgstr "이 콘텐츠는 숨겨져 있으니 구매 후 확인해주세요!"
+
+#: inc/functions/functions.php:923
+msgid "购买查看"
+msgstr "구매하여 보기"
+
+#: inc/functions/functions.php:934 iopay/functions/iopay-post.php:316
+msgid "限时特惠"
+msgstr "기간 한정 스페셜"
+
+#: inc/functions/functions.php:1116 inc/functions/io-user.php:95
+#: inc/functions/page/io-contribute.php:250 inc/theme-start.php:364 page.php:22
+#: single-bulletin.php:42 template-links.php:29
+#: templates/tools-customize.php:26 templates/tools-customizeforuser.php:53
+msgid "编辑"
+msgstr "편집합니다"
+
+#: inc/functions/functions.php:1121
+msgid "Edit This"
+msgstr "이것을 편집하십시오"
+
+#: inc/functions/functions.php:1179
+msgid "查看更多文章"
+msgstr "기사 더 보기"
+
+#: inc/functions/functions.php:1282
+msgid "去评论"
+msgstr "댓글로 이동"
+
+#: inc/functions/functions.php:1339
+msgid "查看更多"
+msgstr "더 보기"
+
+#: inc/functions/functions.php:1367 inc/functions/functions.php:1369
+#: inc/functions/io-tool.php:1134 inc/functions/page/io-contribute.php:648
+msgid "发布"
+msgstr "출판하다"
+
+#: inc/functions/functions.php:1367 inc/functions/io-tool.php:1135
+msgid "更新"
+msgstr "업데이트"
+
+#: inc/functions/functions.php:1425
+msgid "解压密码："
+msgstr "압축 해제 암호:"
+
+#: inc/functions/io-bulletin.php:66
+msgid "关闭"
+msgstr "닫기"
+
+#: inc/functions/io-cards.php:151 inc/functions/io-cards.php:164
+msgid "详情"
+msgstr "세부 사항"
+
+#: inc/functions/io-cards.php:151
+msgid "直达"
+msgstr "직통"
+
+#: inc/functions/io-cards.php:452 inc/functions/io-post.php:408
+msgid "待审核"
+msgstr "검토 예정"
+
+#: inc/functions/io-cards.php:469
+msgid "评论于："
+msgstr "댓글:"
+
+#: inc/functions/io-check-link.php:594
+msgid "失效链接"
+msgstr "링크를 무효화합니다"
+
+#: inc/functions/io-check-link.php:600
+msgid "连接超时"
+msgstr "연결 시간 초과입니다"
+
+#: inc/functions/io-check-link.php:606 inc/functions/io-single-site.php:670
+msgid "重定向&变更"
+msgstr "리디렉션&변경"
+
+#: inc/functions/io-footer.php:211 inc/theme-start.php:363
+msgid "夜间模式"
+msgstr "야간 모드"
+
+#: inc/functions/io-home.php:70
+msgid "展开"
+msgstr "펴다"
+
+#: inc/functions/io-home.php:71
+msgid "收起"
+msgstr "무너지다"
+
+#: inc/functions/io-hot-api.php:31 templates/hot/hot-api.php:25
+#: templates/hot/hot-json.php:25
+msgid "更多"
+msgstr "더 많은"
+
+#: inc/functions/io-hot-api.php:43 inc/widgets/w.single.posts.php:236
+#: inc/widgets/w.tag.cloud.php:113 templates/hot/hot-api.php:27
+#: templates/hot/hot-json.php:27
+msgid "刷新"
+msgstr "새로 고칩니다"
+
+#: inc/functions/io-links.php:38
+msgid "未分类"
+msgstr "분류 되지 않은"
+
+#: inc/functions/io-links.php:114
+msgid "链接名称"
+msgstr "링크의 이름입니다"
+
+#: inc/functions/io-links.php:115
+msgid "请输入链接名称"
+msgstr "링크의 이름을 입력하십시오."
+
+#: inc/functions/io-links.php:116
+msgid "链接地址"
+msgstr "링크"
+
+#: inc/functions/io-links.php:117
+msgid "请输入链接地址"
+msgstr "링크 주소를 입력해 주세요."
+
+#: inc/functions/io-links.php:118
+msgid "链接简介"
+msgstr "링크에 대하여"
+
+#: inc/functions/io-links.php:119
+msgid "请输入链接简介"
+msgstr "간단한 소개를 위해 링크를 입력해 주세요."
+
+#: inc/functions/io-links.php:120
+msgid "LOGO地址"
+msgstr "로고 주소"
+
+#: inc/functions/io-links.php:121
+msgid "请输入LOGO图像地址"
+msgstr "로고 이미지의 주소를 입력해 주세요"
+
+#: inc/functions/io-links.php:123
+msgid "重填"
+msgstr "보충하다"
+
+#: inc/functions/io-links.php:124
+msgid "提交申请"
+msgstr "신청서 제출"
+
+#: inc/functions/io-links.php:181
+msgid "更多链接"
+msgstr "더 많은 링크"
+
+#: inc/functions/io-links.php:182
+msgid "友情链接"
+msgstr "링크"
+
+#: inc/functions/io-login.php:88
+#, php-format
+msgid "已多次登录失败，请%s后重试！"
+msgstr "로그인에 여러 번 실패했습니다. %s 후 다시 시도하세요!"
+
+#: inc/functions/io-login.php:259
+msgid "邮箱或手机号"
+msgstr "이메일 주소 또는 휴대폰 번호"
+
+#: inc/functions/io-login.php:300
+msgid "手机号或邮箱格式错误！"
+msgstr "전화번호 또는 이메일 형식이 잘못되었습니다!"
+
+#: inc/functions/io-login.php:321
+msgid "邮箱格式错误"
+msgstr "잘못된 이메일 주소입니다"
+
+#: inc/functions/io-login.php:330
+msgid "手机号格式错误！"
+msgstr "전화번호 형식이 잘못되었습니다!"
+
+#: inc/functions/io-login.php:451
+msgid "欢迎回来"
+msgstr "다시 오신 것을 환영합니다"
+
+#: inc/functions/io-login.php:455 inc/functions/io-login.php:615
+msgid "用户名/手机号/邮箱"
+msgstr "사용자 이름/전화번호/이메일 주소"
+
+#: inc/functions/io-login.php:455 inc/functions/io-login.php:615
+msgid "用户名或邮箱"
+msgstr "사용자 이름 또는 사서함입니다"
+
+#: inc/functions/io-login.php:458 inc/functions/io-login.php:550
+#: inc/functions/io-login.php:618 inc/functions/io-user.php:780
+msgid "密码"
+msgstr "비밀번호"
+
+#: inc/functions/io-login.php:466
+msgid "记住我的登录信息"
+msgstr "내 로그인 정보를 기억하십시오"
+
+#: inc/functions/io-login.php:472 inc/functions/io-login.php:566
+#: inc/functions/io-theme.php:409 iopay/widgets/w-auto-ad.php:355
+#: templates/breadcrumb.php:15 templates/breadcrumb.php:21
+#: templates/breadcrumb.php:52
+msgid "首页"
+msgstr "Home"
+
+#: inc/functions/io-login.php:475
+msgid "没有账号？"
+msgstr "이미 계정이 있습니까?"
+
+#: inc/functions/io-login.php:475 inc/functions/io-user.php:951
+#: templates/login.php:33
+msgid "找回密码"
+msgstr "비밀번호 찾기"
+
+#: inc/functions/io-login.php:489 inc/functions/io-user.php:522
+msgid "重设密码"
+msgstr "비밀번호 재설정"
+
+#: inc/functions/io-login.php:504 inc/open-login.php:303
+msgid "禁止注册"
+msgstr "등록은 금지되어 있습니다"
+
+#: inc/functions/io-login.php:505
+msgid "请联系管理员！"
+msgstr "사용자 사서함이 잘못되었습니다. 관리자에게 문의하십시오."
+
+#: inc/functions/io-login.php:507 inc/functions/io-login.php:569
+msgid "已有账号?"
+msgstr "이미 계정이 있습니까?"
+
+#: inc/functions/io-login.php:512
+msgid "注册成功"
+msgstr "등록이 성공했습니다"
+
+#: inc/functions/io-login.php:514 inc/functions/io-login.php:630
+#: inc/functions/uc/index.php:239
+msgid "退出登录"
+msgstr "로그아웃"
+
+#: inc/functions/io-login.php:516
+msgid "管理站点"
+msgstr "사이트를 관리합니다"
+
+#: inc/functions/io-login.php:518 templates/title.php:116
+#: templates/title.php:148
+msgid "用户中心"
+msgstr "사용자 센터"
+
+#: inc/functions/io-login.php:521
+msgid "3秒后自动跳转"
+msgstr "3초 후에 자동으로 점프합니다"
+
+#: inc/functions/io-login.php:538 inc/functions/uc/index.php:274
+msgid "用户名"
+msgstr "사용자 이름입니다"
+
+#: inc/functions/io-login.php:546 inc/functions/io-login.php:610
+#: inc/functions/io-user.php:576 inc/functions/io-user.php:613
+#: inc/functions/io-user.php:777
+msgid "发送验证码"
+msgstr "인증번호 발송"
+
+#: inc/functions/io-login.php:554 inc/functions/io-user.php:784
+msgid "确认密码"
+msgstr "암호를 확인합니다"
+
+#: inc/functions/io-login.php:591 inc/functions/io-login.php:628
+#: inc/theme-start.php:365 template-contribute.php:157
+msgid "确定"
+msgstr "확인합니다"
+
+#: inc/functions/io-login.php:594
+msgid "登录并绑定"
+msgstr "로그인하고 바인딩합니다"
+
+#: inc/functions/io-login.php:594
+msgid "绑定现有账号"
+msgstr "기존 계정을 바인딩합니다"
+
+#: inc/functions/io-login.php:647
+msgid "绑定邮箱完成注册"
+msgstr "사서함을 바인딩합니다"
+
+#: inc/functions/io-login.php:650
+msgid "输入邮箱"
+msgstr "사서함을 입력합니다"
+
+#: inc/functions/io-login.php:725 inc/functions/io-user.php:507
+#: inc/functions/io-user.php:678
+msgid "绑定邮箱"
+msgstr "사서함을 바인딩합니다"
+
+#: inc/functions/io-login.php:727 inc/functions/io-user.php:513
+msgid "绑定手机号"
+msgstr "휴대폰 번호 바인딩"
+
+#: inc/functions/io-login.php:728
+msgid "输入手机号"
+msgstr "휴대폰 번호를 입력해 주세요"
+
+#: inc/functions/io-oauth.php:116
+msgid "扫码登录"
+msgstr "QR 코드를 스캔하여 로그인하세요."
+
+#: inc/functions/io-oauth.php:117
+msgid "二维码获取失败，请稍后再试"
+msgstr "QR 코드 획득에 실패했습니다. 나중에 다시 시도하세요."
+
+#: inc/functions/io-oauth.php:118
+msgid "未知错误，请刷新页面或者稍后试试！"
+msgstr "알 수 없는 오류입니다. 페이지를 새로 고치거나 나중에 시도하십시오!"
+
+#: inc/functions/io-oauth.php:119
+msgid "验证中..."
+msgstr "확인..."
+
+#: inc/functions/io-oauth.php:120
+msgid "验证失败！请检查验证码是否已过期！"
+msgstr "확인에 실패했습니다! 인증 코드가 만료되었는지 확인해주세요!"
+
+#: inc/functions/io-oauth.php:121
+msgid "请输入验证码"
+msgstr "인증 코드를 입력해 주세요."
+
+#: inc/functions/io-oauth.php:239 inc/functions/io-oauth.php:246
+#: inc/functions/uc/index.php:309 inc/search-list.php:160
+#: inc/search-list.php:161 iopay/functions/functions.php:124
+msgid "微信"
+msgstr "WeChat"
+
+#: inc/functions/io-oauth.php:253 inc/functions/uc/index.php:314
+#: inc/search-list.php:166 inc/search-list.php:167
+msgid "微博"
+msgstr "마이크로 블로깅"
+
+#: inc/functions/io-oauth.php:260 inc/search-list.php:25 inc/search-list.php:62
+msgid "百度"
+msgstr "바이두"
+
+#: inc/functions/io-oauth.php:267 inc/theme-start.php:378
+#: iopay/functions/functions.php:128
+msgid "支付宝"
+msgstr "알리페이"
+
+#: inc/functions/io-oauth.php:281
+msgid "码云"
+msgstr "코드 클라우드"
+
+#: inc/functions/io-oauth.php:288
+msgid "华为"
+msgstr "화웨이"
+
+#: inc/functions/io-oauth.php:295
+msgid "谷歌"
+msgstr "Google"
+
+#: inc/functions/io-oauth.php:302
+msgid "微软"
+msgstr "마이크로 소프트"
+
+#: inc/functions/io-oauth.php:323
+msgid "钉钉"
+msgstr "못을 박다"
+
+#: inc/functions/io-post.php:357
+msgid "链接已失效"
+msgstr "링크가 잘못되었습니다."
+
+#: inc/functions/io-post.php:406 inc/functions/page/io-author.php:194
+#: inc/functions/page/io-contribute.php:226
+msgid "已发布"
+msgstr "게시"
+
+#: inc/functions/io-post.php:407 inc/functions/page/io-author.php:200
+#: inc/functions/page/io-contribute.php:228
+msgid "草稿"
+msgstr "초안"
+
+#: inc/functions/io-post.php:409
+msgid "回收站"
+msgstr "휴지통"
+
+#: inc/functions/io-post.php:411
+msgid "未知"
+msgstr "알 수 없는"
+
+#: inc/functions/io-search.php:129 inc/search-list.php:37
+msgid "站内"
+msgstr "역 안에 있습니다"
+
+#: inc/functions/io-search.php:134 inc/search-list.php:38
+msgid "站内搜索"
+msgstr "역 내 검색"
+
+#: inc/functions/io-search.php:170 inc/functions/io-search.php:253
+msgid "输入关键字搜索"
+msgstr "키워드 검색을 입력합니다"
+
+#: inc/functions/io-search.php:467 inc/functions/io-tool.php:1526
+#: inc/functions/uc/u-footprint.php:48
+msgid "清空"
+msgstr "비우다"
+
+#: inc/functions/io-search.php:564
+msgid "请输入搜索关键词。"
+msgstr "검색 키워드를 입력해 주세요."
+
+#: inc/functions/io-single-app.php:67 inc/functions/io-single-site.php:110
+msgid "去官方网站了解更多"
+msgstr "자세한 내용은 공식 웹 사이트를 방문하십시오"
+
+#: inc/functions/io-single-app.php:89 inc/functions/io-single-app.php:271
+msgid "历史版本"
+msgstr "기록 버전입니다"
+
+#: inc/functions/io-single-app.php:93
+msgid "版本"
+msgstr "버전입니다"
+
+#: inc/functions/io-single-app.php:94
+msgid "日期"
+msgstr "날짜"
+
+#: inc/functions/io-single-app.php:95 inc/functions/page/io-contribute.php:1092
+#: inc/functions/page/io-contribute.php:1093
+msgid "大小"
+msgstr "크기입니다"
+
+#: inc/functions/io-single-app.php:96
+msgid "状态"
+msgstr "상태"
+
+#: inc/functions/io-single-app.php:97
+msgid "语言"
+msgstr "언어"
+
+#: inc/functions/io-single-app.php:109
+msgid "最新"
+msgstr "최신"
+
+#: inc/functions/io-single-app.php:112 inc/functions/io-single-app.php:173
+#: inc/functions/io-title.php:171 inc/functions/page/io-contribute.php:1115
+msgid "官方版"
+msgstr "공식 판"
+
+#: inc/functions/io-single-app.php:112 inc/functions/io-single-app.php:173
+#: inc/functions/io-title.php:173 inc/functions/page/io-contribute.php:1116
+msgid "开心版"
+msgstr "해피 에디션"
+
+#: inc/functions/io-single-app.php:174 inc/functions/io-title.php:167
+msgid "有广告"
+msgstr "광고가 있습니다"
+
+#: inc/functions/io-single-app.php:174 inc/functions/io-title.php:167
+msgid "无广告"
+msgstr "광고 없음"
+
+#: inc/functions/io-single-app.php:186
+msgid "更新日期："
+msgstr "업데이트 날짜:"
+
+#: inc/functions/io-single-app.php:187
+msgid "分类标签："
+msgstr "카테고리 레이블:"
+
+#: inc/functions/io-single-app.php:188 inc/functions/io-single-site.php:281
+msgid "语言："
+msgstr "언어:"
+
+#: inc/functions/io-single-app.php:189
+msgid "平台："
+msgstr "플랫폼:"
+
+#: inc/functions/io-single-app.php:222 inc/functions/io-single-app.php:223
+#, php-format
+msgid "%s的使用截图"
+msgstr "%s 스크린샷을 사용합니다"
+
+#: inc/functions/io-single-app.php:257
+msgid "没限制"
+msgstr "제한이 없습니다"
+
+#: inc/functions/io-single-app.php:274
+msgid "人已下载"
+msgstr "사람이 다운로드되었습니다"
+
+#: inc/functions/io-single-app.php:279 inc/functions/io-single-site.php:270
+msgid "手机查看"
+msgstr "휴대 전화에서 볼 수 있습니다"
+
+#: inc/functions/io-single-app.php:301
+msgid "立即下载"
+msgstr "지금 다운로드하십시오"
+
+#: inc/functions/io-single-app.php:301 inc/functions/io-single-book.php:228
+#: iopay/functions/iopay-post.php:141
+msgid "立即购买"
+msgstr "지금 로그인"
+
+#: inc/functions/io-single-app.php:305
+msgid "购买"
+msgstr "사다"
+
+#: inc/functions/io-single-app.php:337
+msgid "去购买"
+msgstr "구매하러 가기"
+
+#: inc/functions/io-single-app.php:436 inc/functions/io-theme.php:607
+msgid "软件"
+msgstr "소프트웨어"
+
+#: inc/functions/io-single-app.php:437 iopay/functions/iopay-post.php:81
+#: iopay/functions/iopay-post.php:172 iopay/functions/iopay-post.php:254
+msgid "资源"
+msgstr "리소스입니다"
+
+#: inc/functions/io-single-app.php:455
+msgid "安卓"
+msgstr "로봇"
+
+#: inc/functions/io-single-book.php:88
+msgid "下载地址: "
+msgstr "다운로드 주소: "
+
+#: inc/functions/io-single-book.php:101
+msgid "周刊"
+msgstr "주간"
+
+#: inc/functions/io-single-book.php:102
+msgid "旬刊"
+msgstr "순간"
+
+#: inc/functions/io-single-book.php:103
+msgid "半月刊"
+msgstr "반월간지"
+
+#: inc/functions/io-single-book.php:104
+msgid "月刊"
+msgstr "월간"
+
+#: inc/functions/io-single-book.php:105
+msgid "双月刊"
+msgstr "쌍월간"
+
+#: inc/functions/io-single-book.php:106
+msgid "季刊"
+msgstr "계간지"
+
+#: inc/functions/io-single-book.php:153
+#: inc/functions/page/io-contribute.php:594
+msgid "标签"
+msgstr "레이블입니다"
+
+#: inc/functions/io-single-book.php:160
+msgid "系列"
+msgstr "시리즈"
+
+#: inc/functions/io-single-book.php:209
+msgid "下载资源"
+msgstr "리소스를 다운로드합니다"
+
+#: inc/functions/io-single-book.php:254
+msgid "图书"
+msgstr "책 시리즈"
+
+#: inc/functions/io-single-book.php:255
+msgid "期刊"
+msgstr "월간"
+
+#: inc/functions/io-single-book.php:256
+msgid "电影"
+msgstr "영화"
+
+#: inc/functions/io-single-book.php:257
+msgid "电视剧"
+msgstr "드라마"
+
+#: inc/functions/io-single-book.php:258
+msgid "小视频"
+msgstr "작은 비디오"
+
+#: inc/functions/io-single-post.php:108
+msgid "版权声明"
+msgstr "저작권 고지"
+
+#: inc/functions/io-single-post.php:122 inc/functions/io-single-post.php:128
+#: single-bulletin.php:79 single-bulletin.php:85
+msgid "上一篇"
+msgstr "이전"
+
+#: inc/functions/io-single-post.php:129 inc/functions/io-single-post.php:142
+#: single-bulletin.php:86 single-bulletin.php:99
+msgid "没有更多了..."
+msgstr "더 이상..."
+
+#: inc/functions/io-single-post.php:135 inc/functions/io-single-post.php:141
+#: single-bulletin.php:92 single-bulletin.php:98
+msgid "下一篇"
+msgstr "다음"
+
+#: inc/functions/io-single-site.php:30
+msgid "数据评估"
+msgstr "데이터 평가"
+
+#: inc/functions/io-single-site.php:61 inc/functions/io-single-site.php:694
+msgid "反馈"
+msgstr "피드백"
+
+#: inc/functions/io-single-site.php:122
+msgid "数据统计"
+msgstr "통계"
+
+#: inc/functions/io-single-site.php:183
+msgid "翻译站点"
+msgstr "번역 사이트"
+
+#: inc/functions/io-single-site.php:254
+msgid "小程序"
+msgstr "애플릿"
+
+#: inc/functions/io-single-site.php:256 inc/functions/io-single-site.php:263
+#: inc/functions/io-single-site.php:659
+msgid "居然没有添加二维码"
+msgstr "QR 코드를 추가하지 않았습니다"
+
+#: inc/functions/io-single-site.php:277
+msgid "所在地："
+msgstr "위치:"
+
+#: inc/functions/io-single-site.php:284
+msgid "公众号ID："
+msgstr "공식 계정 ID:"
+
+#: inc/functions/io-single-site.php:286
+msgid "收录时间："
+msgstr ""
+
+#: inc/functions/io-single-site.php:290
+msgid "其他站点:"
+msgstr "기타 사이트:"
+
+#: inc/functions/io-single-site.php:321
+msgid "打开网站"
+msgstr ""
+
+#: inc/functions/io-single-site.php:340
+msgid "经过确认，此站已经关闭，故本站不再提供跳转，仅保留存档。"
+msgstr ""
+"확인 후 이 사이트는 폐쇄되었으므로 이 사이트는 더 이상 리디렉션을 제공하지 않"
+"고 아카이브만 제공합니다."
+
+#: inc/functions/io-single-site.php:644 inc/functions/uc/index.php:289
+msgid "网址"
+msgstr "웹 사이트입니다"
+
+#: inc/functions/io-single-site.php:661
+msgid "没有 url"
+msgstr "URL이 없습니다"
+
+#: inc/functions/io-single-site.php:669
+msgid "已失效"
+msgstr "더 이상 유효하지 않습니다"
+
+#: inc/functions/io-single-site.php:671
+msgid "已屏蔽"
+msgstr "차단됨"
+
+#: inc/functions/io-single-site.php:672
+msgid "敏感内容"
+msgstr "민감한 콘텐츠"
+
+#: inc/functions/io-single-site.php:673
+msgid "其他"
+msgstr "기타"
+
+#: inc/functions/io-single-site.php:701
+msgid "让我们一起共建文明社区！您的反馈至关重要！"
+msgstr "문명화된 공동체를 함께 건설합시다! 귀하의 의견은 매우 중요합니다!"
+
+#: inc/functions/io-single-site.php:710
+msgid "已可访问"
+msgstr "액세스할"
+
+#: inc/functions/io-single-site.php:720
+msgid "其它信息，可选"
+msgstr "추가 정보, 선택 사항"
+
+#: inc/functions/io-single-site.php:723
+msgid "重定向&变更后的地址"
+msgstr "리디렉션&변경된 주소입니다"
+
+#: inc/functions/io-single-site.php:726
+msgid "提交反馈"
+msgstr "피드백을 제출합니다"
+
+#: inc/functions/io-single-site.php:754 inc/functions/io-single-site.php:760
+msgid "信息不能为空！"
+msgstr "정보는 비어 있을 수 없습니다!"
+
+#: inc/functions/io-single-site.php:782 inc/theme-start.php:357
+msgid "网络错误 --."
+msgstr "네트워크 오류 --."
+
+#: inc/functions/io-theme.php:27 inc/functions/io-theme.php:41
+#: inc/functions/io-tool.php:1138 inc/functions/page/io-author.php:92
+#: inc/functions/uc/index.php:153 inc/mailfunc/notice.php:22
+msgid "收藏"
+msgstr "컬렉션"
+
+#: inc/functions/io-theme.php:65 inc/functions/io-tool.php:1137
+msgid "点赞"
+msgstr "좋아요를 누르세요"
+
+#: inc/functions/io-theme.php:372
+msgid "没有更多内容了"
+msgstr "더 이상 할 일이 없습니다"
+
+#: inc/functions/io-theme.php:427 templates/breadcrumb.php:37
+msgid "正文"
+msgstr "본문입니다"
+
+#: inc/functions/io-theme.php:532
+#, php-format
+msgid "发布%s"
+msgstr ""
+
+#: inc/functions/io-theme.php:533 inc/functions/io-theme.php:534
+#: inc/functions/io-theme.php:535
+#, php-format
+msgid "提交%s"
+msgstr ""
+
+#: inc/functions/io-theme.php:538
+msgid "发布文章"
+msgstr ""
+
+#: inc/functions/io-theme.php:606 inc/functions/uc/index.php:138
+msgid "文章"
+msgstr "기사"
+
+#: inc/functions/io-theme.php:608
+msgid "书籍"
+msgstr "책"
+
+#: inc/functions/io-tool.php:420 inc/functions/io-tool.php:432
+msgid "m月d日 H:i"
+msgstr "M월 d일 H:i"
+
+#: inc/functions/io-tool.php:423
+msgid "后天"
+msgstr "내일 모레"
+
+#: inc/functions/io-tool.php:426
+msgid "明天"
+msgstr "내일"
+
+#: inc/functions/io-tool.php:767
+msgid "没有相关内容!"
+msgstr "관련 콘텐츠가 없습니다!"
+
+#: inc/functions/io-tool.php:1136 inc/postviews/postviews.php:230
+msgid "浏览"
+msgstr "탐색합니다"
+
+#: inc/functions/io-tool.php:1139 inc/functions/page/io-author.php:84
+#: inc/functions/uc/index.php:148 inc/mailfunc/notice.php:21
+#: inc/shortcode.php:244
+msgid "评论"
+msgstr "댓글을 달다"
+
+#: inc/functions/io-tool.php:1141
+msgid "随机"
+msgstr "랜덤"
+
+#: inc/functions/io-tool.php:1524
+msgid "全选"
+msgstr ""
+
+#: inc/functions/io-tool.php:1528
+#, php-format
+msgid "最多可选%s个"
+msgstr ""
+
+#: inc/functions/io-tools-hotcontent.php:47
+msgid "没有数据！请开启统计并等待产生数据"
+msgstr "데이터가 없습니다! 통계를 켜고 데이터가 생성될 때까지 기다립니다"
+
+#: inc/functions/io-user.php:89 inc/functions/uc/index.php:46
+msgid "游客"
+msgstr "관광객"
+
+#: inc/functions/io-user.php:92
+msgid "管理员"
+msgstr "관리자입니다"
+
+#: inc/functions/io-user.php:98 inc/functions/page/io-contribute.php:717
+msgid "作者"
+msgstr "저자"
+
+#: inc/functions/io-user.php:101
+msgid "投稿者"
+msgstr "기고자"
+
+#: inc/functions/io-user.php:104
+msgid "读者"
+msgstr "독자"
+
+#: inc/functions/io-user.php:192
+msgid "旧邮箱"
+msgstr "이전 사서함"
+
+#: inc/functions/io-user.php:193
+msgid "旧手机号"
+msgstr "이전 전화번호"
+
+#: inc/functions/io-user.php:271
+msgid "你没有绑定邮箱！"
+msgstr "이메일 링크가 없습니다!"
+
+#: inc/functions/io-user.php:275
+msgid "你没有绑定手机号！"
+msgstr "연결된 전화번호가 없습니다!"
+
+#: inc/functions/io-user.php:289
+msgid "前往绑定"
+msgstr "바인딩으로 이동"
+
+#: inc/functions/io-user.php:353 inc/functions/io-user.php:359
+#: inc/functions/io-user.php:382 inc/functions/io-user.php:385
+msgid "帐号"
+msgstr "계좌"
+
+#: inc/functions/io-user.php:354 inc/functions/io-user.php:383
+msgid "解绑"
+msgstr "풀다"
+
+#: inc/functions/io-user.php:354 inc/functions/io-user.php:383
+msgid "已绑定"
+msgstr "경계"
+
+#: inc/functions/io-user.php:359 inc/functions/io-user.php:385
+msgid "绑定"
+msgstr "매다"
+
+#: inc/functions/io-user.php:392
+msgid "账号绑定"
+msgstr "계정 바인딩"
+
+#: inc/functions/io-user.php:507
+msgid "修改邮箱"
+msgstr "사서함 수정"
+
+#: inc/functions/io-user.php:513
+msgid "修改手机号"
+msgstr "휴대폰 번호"
+
+#: inc/functions/io-user.php:518 inc/functions/io-user.php:688
+msgid "设置密码"
+msgstr "암호를 설정합니다"
+
+#: inc/functions/io-user.php:518 inc/functions/io-user.php:695
+msgid "修改密码"
+msgstr "암호를 수정합니다"
+
+#: inc/functions/io-user.php:537
+#, php-format
+msgid "验证旧%s"
+msgstr "이전 %s 확인"
+
+#: inc/functions/io-user.php:538
+#, php-format
+msgid "设置新%s"
+msgstr "새 %s 설정"
+
+#: inc/functions/io-user.php:539
+msgid "修改成功"
+msgstr "수정에 성공했습니다"
+
+#: inc/functions/io-user.php:568
+msgid "获取验证码以验证旧邮箱："
+msgstr "이전 이메일 주소를 인증하기 위한 인증 코드를 받습니다."
+
+#: inc/functions/io-user.php:569
+msgid "获取验证码以验证旧手机号："
+msgstr "이전 전화번호를 인증하기 위한 인증 코드를 받습니다."
+
+#: inc/functions/io-user.php:575 inc/functions/io-user.php:612
+#: inc/functions/io-user.php:776
+msgid "验证码"
+msgstr "인증번호"
+
+#: inc/functions/io-user.php:583
+msgid "立即验证"
+msgstr "지금 인증하기"
+
+#: inc/functions/io-user.php:598
+msgid "请输入邮箱"
+msgstr "이메일 주소를 입력해 주세요"
+
+#: inc/functions/io-user.php:599
+msgid "请输入手机号"
+msgstr "휴대폰 번호를 입력해 주세요"
+
+#: inc/functions/io-user.php:602
+msgid "请输入您需要修改的新邮箱。"
+msgstr "수정하려는 새 이메일 주소를 입력하십시오."
+
+#: inc/functions/io-user.php:603
+msgid "请输入您需要修改的新手机号。"
+msgstr "수정하려는 새 전화번호를 입력하십시오."
+
+#: inc/functions/io-user.php:621 inc/functions/io-user.php:748
+msgid "确认提交"
+msgstr "동의 및 제출"
+
+#: inc/functions/io-user.php:642
+msgid "用户协议"
+msgstr "사용자 약정"
+
+#: inc/functions/io-user.php:645
+msgid "隐私声明"
+msgstr "개인정보취급방침"
+
+#: inc/functions/io-user.php:649
+msgid "阅读并同意"
+msgstr "읽고 동의"
+
+#: inc/functions/io-user.php:661 inc/theme-start.php:375
+msgid "请先阅读并同意用户协议"
+msgstr "먼저 사용자 계약을 읽고 동의하십시오"
+
+#: inc/functions/io-user.php:683
+msgid "绑定手机"
+msgstr "휴대폰 번호 바인딩"
+
+#: inc/functions/io-user.php:700
+msgid "换绑账号"
+msgstr "계정 변경"
+
+#: inc/functions/io-user.php:702
+msgid "已绑定："
+msgstr "경계"
+
+#: inc/functions/io-user.php:704
+msgid "绑定账号"
+msgstr "계정 바인딩"
+
+#: inc/functions/io-user.php:730
+msgid "请输入原密码"
+msgstr "원래 비밀번호를 입력하세요!"
+
+#: inc/functions/io-user.php:737
+msgid "请输入新密码"
+msgstr "새 비밀번호를 입력해 주세요"
+
+#: inc/functions/io-user.php:741
+msgid "请再次输入新密码"
+msgstr "새 비밀번호를 다시 입력하십시오."
+
+#: inc/functions/io-user.php:753
+msgid "忘记密码？点击重设密码。"
+msgstr "비밀번호를 잊으셨나요? 비밀번호 재설정을 클릭합니다."
+
+#: inc/functions/io-user.php:790 inc/shortcode.php:327
+msgid "提交"
+msgstr "제출 확인"
+
+#: inc/functions/io-user.php:845 inc/functions/uc/index.php:296
+msgid "帅气的我简直无法用语言描述！"
+msgstr "멋진 나는 말로 설명 할 수 없습니다!"
+
+#: inc/functions/io-user.php:870
+#, php-format
+msgid "共%s篇文章"
+msgstr ""
+
+#: inc/functions/io-user.php:877
+#, php-format
+msgid "共%s条评论"
+msgstr ""
+
+#: inc/functions/io-user.php:884
+#, php-format
+msgid "获得%s个赞"
+msgstr ""
+
+#: inc/functions/io-user.php:891
+msgid "人气 "
+msgstr ""
+
+#: inc/functions/io-user.php:928
+msgid "个人中心"
+msgstr "개인 센터"
+
+#: inc/functions/io-user.php:931 inc/functions/uc/index.php:178
+msgid "收录投稿"
+msgstr ""
+
+#: inc/functions/io-user.php:934
+msgid "安全退出"
+msgstr "안전하게 종료합니다"
+
+#: inc/functions/io-user.php:939
+msgid "主题设置"
+msgstr ""
+
+#: inc/functions/io-user.php:940
+msgid "首页配置"
+msgstr ""
+
+#: inc/functions/io-user.php:941
+msgid "后台管理"
+msgstr "백그라운드 관리"
+
+#: inc/functions/io-user.php:959
+msgid "快速登录"
+msgstr "빠른 로그인"
+
+#: inc/functions/io-user.php:987
+msgid "未登录"
+msgstr "로그인하지 않음"
+
+#: inc/functions/io-user.php:988 inc/functions/uc/index.php:47
+msgid "登录后即可体验更多功能"
+msgstr ""
+
+#: inc/functions/page/io-author.php:206 inc/functions/page/io-author.php:279
+msgid "待审"
+msgstr "보류 중인"
+
+#: inc/functions/page/io-author.php:272
+msgid "已通过"
+msgstr ""
+
+#: inc/functions/page/io-author.php:432 inc/functions/page/io-author.php:523
+#: inc/functions/uc/index.php:471 inc/functions/uc/index.php:529
+msgid "没有更多了"
+msgstr "그 이상 아닌"
+
+#: inc/functions/page/io-author.php:438
+msgid "暂无内容..."
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:33
+msgid "提交审核"
+msgstr "검토를 제출합니다"
+
+#: inc/functions/page/io-contribute.php:38
+msgid "提交发布"
+msgstr "게시를 제출합니다"
+
+#: inc/functions/page/io-contribute.php:115
+msgid "预览文章"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:116
+msgid "最后保存："
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:120
+msgid "后台编辑"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:227
+msgid "审核中"
+msgstr "심사 중입니다"
+
+#: inc/functions/page/io-contribute.php:230
+#, php-format
+msgid "新建%s"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:281
+msgid "请输入文章标题"
+msgstr "아티클 제목을 입력하십시오"
+
+#: inc/functions/page/io-contribute.php:350
+#: inc/functions/page/io-contribute.php:414
+msgid "名称"
+msgstr "이름입니다"
+
+#: inc/functions/page/io-contribute.php:354
+msgid "公众号ID(微信号)"
+msgstr "공용 번호 ID(마이크로 신호)"
+
+#: inc/functions/page/io-contribute.php:358
+msgid "链接"
+msgstr "링크"
+
+#: inc/functions/page/io-contribute.php:359
+msgid "获取 TDK"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:367
+#: inc/functions/page/io-contribute.php:417
+#: inc/functions/page/io-contribute.php:467
+msgid "简介"
+msgstr "간략한 소개"
+
+#: inc/functions/page/io-contribute.php:457
+msgid "标题"
+msgstr "타이틀"
+
+#: inc/functions/page/io-contribute.php:460
+msgid "名称（同上则留空）"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:489
+msgid "先选择类型"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:523
+msgid "图标"
+msgstr "아이콘입니다"
+
+#: inc/functions/page/io-contribute.php:526
+msgid "封面"
+msgstr "표지"
+
+#: inc/functions/page/io-contribute.php:590
+msgid "分类"
+msgstr "기밀 취급하다"
+
+#: inc/functions/page/io-contribute.php:595
+msgid "输入标签"
+msgstr "레이블을 입력합니다"
+
+#: inc/functions/page/io-contribute.php:596
+msgid "填写标签，每个标签用逗号隔开"
+msgstr "각 레이블이 쉼표로 구분된 레이블을 입력합니다"
+
+#: inc/functions/page/io-contribute.php:621
+msgid "保存草稿"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:623
+msgid "登录后可以管理您的所有投稿内容并查看投稿状态！"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:634
+msgid "保存"
+msgstr "저장합니다"
+
+#: inc/functions/page/io-contribute.php:645
+msgid "审核并发布"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:668 iopay/action/ajax-posts.php:72
+#: iopay/functions/iopay-ajax.php:44
+msgid "原价"
+msgstr "값"
+
+#: inc/functions/page/io-contribute.php:742
+msgid "请输入昵称"
+msgstr "닉네임을 입력하십시오"
+
+#: inc/functions/page/io-contribute.php:744
+msgid "联系方式"
+msgstr "연락처 정보"
+
+#: inc/functions/page/io-contribute.php:745
+msgid "输入联系方式"
+msgstr "연락처 정보를 입력합니다"
+
+#: inc/functions/page/io-contribute.php:791
+msgid "评分"
+msgstr "평점"
+
+#: inc/functions/page/io-contribute.php:791
+msgid "没得请保持默认"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:793
+msgid "平台"
+msgstr "플랫폼"
+
+#: inc/functions/page/io-contribute.php:794
+msgid "分值"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:800
+msgid "期刊类型"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:812
+msgid "元数据"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:813
+msgid "添加元数据"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:816
+#: inc/functions/page/io-contribute.php:828
+msgid "项目"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:818
+#: inc/functions/page/io-contribute.php:830
+msgid "内容"
+msgstr "콘텐츠"
+
+#: inc/functions/page/io-contribute.php:866
+msgid "获取渠道"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:867
+msgid "添加获取列表"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:868
+msgid "编辑获取渠道"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:869
+msgid "资源的订阅、购买、观看等渠道。"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:875
+#: inc/functions/page/io-contribute.php:921
+#: inc/functions/page/io-contribute.php:1178
+msgid "按钮名称"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:876
+msgid "渠道名称，比如爱奇艺、当当等"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:884
+msgid "渠道地址"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:893
+msgid "价格"
+msgstr "값"
+
+#: inc/functions/page/io-contribute.php:894
+msgid "比如杂志的订阅价格 100/年"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:912
+#: inc/functions/page/io-contribute.php:930
+#: inc/functions/page/io-contribute.php:1168
+#: inc/functions/page/io-contribute.php:1185
+#: iopay/widgets/w-buy-sidebar.php:140
+msgid "下载地址"
+msgstr "다운로드 주소: "
+
+#: inc/functions/page/io-contribute.php:913
+#: inc/functions/page/io-contribute.php:1169
+msgid "添加资源下载地址"
+msgstr "리소스 다운로드 주소 추가"
+
+#: inc/functions/page/io-contribute.php:914
+#: inc/functions/page/io-contribute.php:1170
+msgid "编辑下载地址"
+msgstr "다운로드 URL 편집"
+
+#: inc/functions/page/io-contribute.php:915
+#: inc/functions/page/io-contribute.php:1172
+msgid "电子存档文件的下载地址。"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:949
+msgid "格式、大小、版本、更新时间等"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:983
+msgid "支持平台"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:994
+msgid "官网地址"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1028
+msgid "添加截图"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1033
+msgid "暂无截图"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1052
+#, php-format
+msgid "可增删、排序，截图大小不能超过%sMB。"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1068
+msgid "版本管理"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1069
+msgid "添加资源版本"
+msgstr "리소스 버전 추가"
+
+#: inc/functions/page/io-contribute.php:1070
+msgid "编辑版本"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1071
+msgid "版本管理和电子存档文件的下载地址，第一个为最新版本。"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1076
+msgid "版本、大小、更新日期"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1077
+msgid "数据包大小请自行填写单位：KB,MB,GB,TB"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1083
+#: inc/functions/page/io-contribute.php:1085
+msgid "版本号"
+msgstr "버전 번호"
+
+#: inc/functions/page/io-contribute.php:1100
+#: inc/functions/page/io-contribute.php:1101
+msgid "更新日期"
+msgstr "업데이트 날짜"
+
+#: inc/functions/page/io-contribute.php:1110
+msgid "APP状态"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1117 inc/functions/uc/index.php:380
+msgid "自定义"
+msgstr "사용자 지정"
+
+#: inc/functions/page/io-contribute.php:1126
+msgid "请填写自定义状态"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1127
+msgid "留空则不显示"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1135
+msgid "是否有广告"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1144
+msgid "支持的 CPU"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1145
+msgid "苹果 M 系列芯片也是 ARM"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1159
+msgid "支持语言"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1160
+msgid "用逗号隔开"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1199
+msgid "资源名称或者其他说明。"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1222
+msgid "版本描述"
+msgstr ""
+
+#: inc/functions/page/io-contribute.php:1332
+msgid "待编辑"
+msgstr "편집 예정"
+
+#: inc/functions/page/io-rankings.php:78
+msgid "日榜"
+msgstr "일일 목록"
+
+#: inc/functions/page/io-rankings.php:79
+msgid "昨日"
+msgstr "어제"
+
+#: inc/functions/page/io-rankings.php:80
+msgid "周榜"
+msgstr ""
+
+#: inc/functions/page/io-rankings.php:81 inc/functions/page/io-rankings.php:174
+msgid "上周"
+msgstr ""
+
+#: inc/functions/page/io-rankings.php:82
+msgid "月榜"
+msgstr "월간 목록"
+
+#: inc/functions/page/io-rankings.php:83 inc/functions/page/io-rankings.php:176
+msgid "总榜"
+msgstr "전체 목록"
+
+#: inc/functions/page/io-rankings.php:98 inc/functions/page/io-rankings.php:99
+#: inc/functions/page/io-rankings.php:100
+#: inc/functions/page/io-rankings.php:101
+#, php-format
+msgid "%s排行榜"
+msgstr ""
+
+#: inc/functions/page/io-rankings.php:165
+#, php-format
+msgid "%s热度%s"
+msgstr ""
+
+#: inc/functions/page/io-rankings.php:172
+msgid "昨天"
+msgstr "어제"
+
+#: inc/functions/page/io-rankings.php:173
+msgid "本周"
+msgstr "이번주"
+
+#: inc/functions/page/io-rankings.php:175
+msgid "本月"
+msgstr "이번달"
+
+#: inc/functions/page/io-rankings.php:178
+#, php-format
+msgid "根据%s浏览量降序排列"
+msgstr ""
+
+#: inc/functions/page/io-taxonomy.php:75
+#, php-format
+msgid "共 %s 篇%s "
+msgstr ""
+
+#: inc/functions/page/io-taxonomy.php:111 inc/widgets/w.big.posts.php:182
+#: inc/widgets/w.tabs.php:186
+msgid "排序"
+msgstr ""
+
+#: inc/functions/uc/index.php:143
+msgid "站点"
+msgstr "사이트"
+
+#: inc/functions/uc/index.php:198
+msgid "我的足迹"
+msgstr ""
+
+#: inc/functions/uc/index.php:204
+msgid "我的资料"
+msgstr ""
+
+#: inc/functions/uc/index.php:210 inc/functions/uc/index.php:538
+msgid "我的订单"
+msgstr ""
+
+#: inc/functions/uc/index.php:216
+msgid "消息通知"
+msgstr "메시지 알림"
+
+#: inc/functions/uc/index.php:222
+msgid "账号安全"
+msgstr ""
+
+#: inc/functions/uc/index.php:253
+msgid "安全信息"
+msgstr "보안 정보"
+
+#: inc/functions/uc/index.php:284
+msgid "头像"
+msgstr "아바타"
+
+#: inc/functions/uc/index.php:294
+msgid "个人描述"
+msgstr "개인 설명"
+
+#: inc/functions/uc/index.php:299
+msgid "个人封面"
+msgstr "개인 표지"
+
+#: inc/functions/uc/index.php:304
+msgid "QQ"
+msgstr ""
+
+#: inc/functions/uc/index.php:319
+msgid "Github"
+msgstr ""
+
+#: inc/functions/uc/index.php:352 templates/user-center.php:35
+msgid "保存资料"
+msgstr "자료를 저장합니다"
+
+#: inc/functions/uc/index.php:376
+msgid "上传头像"
+msgstr "아바타를 업로드합니다"
+
+#: inc/functions/uc/index.php:386
+msgid "默认"
+msgstr "기본값입니다"
+
+#: inc/functions/uc/index.php:395
+#, php-format
+msgid "%s头像"
+msgstr "%s 아바타"
+
+#: inc/functions/uc/index.php:444
+msgid "发送者: "
+msgstr "보낸 사람: "
+
+#: inc/functions/uc/index.php:477 templates/title.php:136
+msgid "站内消息"
+msgstr "역 내 메시지입니다"
+
+#: inc/functions/uc/index.php:477
+#, php-format
+msgid "总共 %d 条消息"
+msgstr "총 %d 메시지입니다"
+
+#: inc/functions/uc/u-footprint.php:46
+msgid "最近访问"
+msgstr ""
+
+#: inc/functions/uc/u-footprint.php:47
+msgid "记录存储于本地浏览器"
+msgstr ""
+
+#: inc/hot-search.php:103
+msgid "没有获取到内容。"
+msgstr "콘텐츠를 가져오지 못했습니다."
+
+#: inc/inc.php:228
+msgid "请到[后台->外观->菜单]中设置菜单。"
+msgstr "[백그라운드-> 모양-> 메뉴]로 이동하여 메뉴를 설정합니다."
+
+#: inc/inc.php:1550
+msgid "刚刚"
+msgstr "그냥"
+
+#: inc/inc.php:1552
+msgid "年前"
+msgstr "몇 년 전"
+
+#: inc/inc.php:1553
+msgid "个月前"
+msgstr "몇 달 전"
+
+#: inc/inc.php:1554
+msgid "周前"
+msgstr "일주일 전"
+
+#: inc/inc.php:1555
+msgid "天前"
+msgstr "며칠 전"
+
+#: inc/inc.php:1556
+msgid "小时前"
+msgstr "시간 전"
+
+#: inc/inc.php:1557
+msgid "分钟前"
+msgstr "분 전"
+
+#: inc/inc.php:1558
+msgid "秒前"
+msgstr "초 전"
+
+#: inc/inc.php:1594
+msgid "博主"
+msgstr "블로거"
+
+#: inc/inc.php:1641
+msgid "头衔："
+msgstr "제목:"
+
+#: inc/inc.php:1735
+msgid "请勿冒充管理员发表评论！"
+msgstr "관리자로 가장하여 댓글을 달지 마십시오!"
+
+#: inc/inc.php:1748
+msgid "别啊，昵称和评论里面添加链接会怀孕的哟！！"
+msgstr "아아, 닉네임과 댓글에 링크를 추가하면 임신할 수 있습니다! !"
+
+#: inc/inc.php:1752 inc/inc.php:1755
+msgid "评论必须含中文！"
+msgstr "댓글에는 중국어가 있어야 합니다!"
+
+#: inc/inc.php:1760
+#, php-format
+msgid "不好意思，您的评论违反了%s博客评论规则"
+msgstr "죄송합니다, 귀하의 의견은 %s 댓글 규칙을 위반했다"
+
+#: inc/inc.php:2067 inc/inc.php:2086
+#, php-format
+msgid "查看与 %s 相关的文章"
+msgstr "이 문서의 %s 문서를 봅니다"
+
+#: inc/inc.php:2456
+msgid "分页阅读"
+msgstr ""
+
+#: inc/inc.php:2463
+msgid "阅读全文"
+msgstr ""
+
+#: inc/mailfunc/email.php:47 inc/mailfunc/email.php:106
+#, php-format
+msgid "%s上的文章有了新的回复"
+msgstr "%s 기사에 대한 새로운 응답이 있습니다"
+
+#: inc/mailfunc/email.php:69
+#, php-format
+msgid "%s在「%s」中回复了你"
+msgstr "%s \"%s\"에서 당신에게 회신했습니다"
+
+#: inc/mailfunc/email.php:88
+#, php-format
+msgid "%s在你的文章「%s」中发表了评论"
+msgstr "%s \"%s\"에 댓글을 달기 위해 글을 쓰는 것을 볼 수 있습니다"
+
+#: inc/mailfunc/email.php:109
+#, php-format
+msgid "文章「%s」中有新评论"
+msgstr "\"%s\"문서에 새로운 의견이 있습니다."
+
+#: inc/mailfunc/email.php:126
+msgid "你的博客空间登录提醒"
+msgstr "블로그 공간 로그인 알림"
+
+#: inc/mailfunc/email.php:144
+msgid "你的博客空间登录错误警告"
+msgstr "블로그 공간 로그인 오류 경고"
+
+#: inc/mailfunc/email.php:180
+#, php-format
+msgid "你的登录密码重置链接-%1$s"
+msgstr "로그인 암호 재설정 링크-%1$s"
+
+#: inc/mailfunc/email.php:196
+#, php-format
+msgid "[%s]新的友情链接待审核"
+msgstr "[%s] 새로운 링크는 검토 중입니다"
+
+#: inc/mailfunc/email.php:198
+msgid "新的友情链接待审核"
+msgstr "새 링크가 보류 중입니다."
+
+#: inc/mailfunc/email.php:221
+msgid "邮箱修改成功"
+msgstr "사서함 수정이 성공했습니다!"
+
+#: inc/mailfunc/email.php:221
+msgid "邮箱绑定成功"
+msgstr "바인딩 성공!"
+
+#: inc/mailfunc/email.php:222
+msgid "您的账号绑定的邮箱已修改"
+msgstr "계정과 연결된 이메일 주소가 수정되었습니다."
+
+#: inc/mailfunc/email.php:222
+msgid "您的账号已成功绑定邮箱"
+msgstr "귀하의 계정이 이메일 주소로 성공적으로 등록되었습니다."
+
+#: inc/mailfunc/email.php:223 inc/mailfunc/email.php:227
+#, php-format
+msgid "由 %s 修改为 %s"
+msgstr "%s에서 %s로 수정됨"
+
+#: inc/mailfunc/email.php:223
+msgid "邮箱："
+msgstr "사서함입니다"
+
+#: inc/mailfunc/email.php:225
+msgid "手机号修改成功"
+msgstr "수정 성공!"
+
+#: inc/mailfunc/email.php:225
+msgid "手机号绑定成功"
+msgstr "바인딩 성공!"
+
+#: inc/mailfunc/email.php:226
+msgid "您的账号绑定的手机号已修改"
+msgstr "계정과 연결된 휴대폰 번호가 수정되었습니다."
+
+#: inc/mailfunc/email.php:226
+msgid "您的账号已成功绑定手机号"
+msgstr "계정이 휴대폰 번호에 성공적으로 연결되었습니다."
+
+#: inc/mailfunc/email.php:227
+msgid "手机号："
+msgstr "이전 전화번호"
+
+#: inc/mailfunc/email.php:229
+msgid "您好，"
+msgstr "안녕하세요"
+
+#: inc/mailfunc/email.php:232
+msgid "如非您本人操作，请及时与客服联系！"
+msgstr "혼자서 운영하지 않을 경우 제 시간에 고객 서비스에 문의하십시오!"
+
+#: inc/mailfunc/email.php:251
+#, php-format
+msgid "您在 [%s] 的评论已通过审核"
+msgstr "[%s]에 대한 리뷰가 검토되었습니다"
+
+#: inc/mailfunc/email.php:308
+#, php-format
+msgid "[%s]上有新的待审投稿"
+msgstr "[%s] 검토를 기다리는 새로운 제출물이 있습니다."
+
+#: inc/mailfunc/email.php:328
+msgid "有新的待审投稿，请及时处理"
+msgstr "검토 대기 중인 새로운 제출물이 있으므로 적시에 처리해 주십시오."
+
+#: inc/mailfunc/email.php:352
+#, php-format
+msgid "您在 [%s] 的投稿已通过审核"
+msgstr "[%s]에 대한 귀하의 기여가 검토되었습니다."
+
+#: inc/mailfunc/email.php:369
+msgid "您的投稿已通过审核"
+msgstr "제출한 내용이 검토되었습니다."
+
+#: inc/mailfunc/email.php:398
+#, php-format
+msgid "[%s]上用户 %s 的投稿有更新"
+msgstr ""
+
+#: inc/mailfunc/email.php:408
+#, php-format
+msgid "用户 %s 的投稿有更新"
+msgstr ""
+
+#: inc/mailfunc/notice.php:20
+msgid "通知"
+msgstr ""
+
+#: inc/mailfunc/notice.php:23 iopay/functions/functions.php:132
+msgid "积分"
+msgstr "포인트"
+
+#: inc/mailfunc/notice.php:24
+msgid "货币"
+msgstr "통화"
+
+#: inc/mailfunc/notice.php:25
+msgid "私信"
+msgstr ""
+
+#: inc/mailfunc/notice.php:115
+#, php-format
+msgid "欢迎来到%s，请首先在个人设置中完善您的账号信息。"
+msgstr ""
+"이메일%s 에 오신 것을 환영합니다, 먼저 개인 설정에서 계정 정보를 개선하시기 "
+"바랍니다."
+
+#: inc/mailfunc/option.php:140
+msgid "此为系统自动发送邮件, 请勿直接回复"
+msgstr "이것은 자동 이메일이므로 직접 회신하지 마십시오."
+
+#: inc/mailfunc/option.php:141
+msgid "版权所有"
+msgstr "판권 소유"
+
+#: inc/open-login.php:90
+msgid "社交帐号登录"
+msgstr "소셜 계정 로그인"
+
+#: inc/open-login.php:149
+#, php-format
+msgid "%s快速登录"
+msgstr "빠른 로그인을 %s"
+
+#: inc/open-login.php:269
+msgid "绑定失败，可能之前已有其他账号绑定，请先登录并解绑。"
+msgstr ""
+"바인딩에 실패하면 다른 계정이 이전에 바인딩되었을 수 있으므로 먼저 로그인하"
+"여 바인딩을 해제합니다."
+
+#: inc/open-login.php:406
+msgid "用户"
+msgstr "사용자 이름입니다"
+
+#: inc/open-login.php:463
+#, php-format
+msgid "该用户已经绑定了 %s 账号"
+msgstr "사용자가 %s 계정을 바인딩했습니다."
+
+#: inc/search-list.php:21
+msgid "常用"
+msgstr "자주 사용됩니다"
+
+#: inc/search-list.php:26 inc/search-list.php:63
+msgid "百度一下"
+msgstr "바이두"
+
+#: inc/search-list.php:32 inc/search-list.php:69
+msgid "谷歌两下"
+msgstr "구글은 두 번"
+
+#: inc/search-list.php:43 inc/search-list.php:44 inc/search-list.php:191
+#: inc/search-list.php:192
+msgid "淘宝"
+msgstr "타오바오"
+
+#: inc/search-list.php:50 inc/search-list.php:87
+msgid "微软Bing搜索"
+msgstr "마이크로 소프트 빙 검색"
+
+#: inc/search-list.php:58 templates/breadcrumb.php:62
+msgid "搜索"
+msgstr "검색"
+
+#: inc/search-list.php:75
+msgid "360好搜"
+msgstr "360 좋은 검색"
+
+#: inc/search-list.php:80
+msgid "搜狗"
+msgstr "소구"
+
+#: inc/search-list.php:81
+msgid "搜狗搜索"
+msgstr "소구 검색"
+
+#: inc/search-list.php:92
+msgid "神马"
+msgstr "신마"
+
+#: inc/search-list.php:93
+msgid "UC移动端搜索"
+msgstr "UC 모바일 검색"
+
+#: inc/search-list.php:101
+msgid "工具"
+msgstr "도구"
+
+#: inc/search-list.php:105
+msgid "权重查询"
+msgstr "가중치 쿼리입니다"
+
+#: inc/search-list.php:106 inc/search-list.php:112 inc/search-list.php:118
+#: inc/search-list.php:124
+msgid "请输入网址(不带https://)"
+msgstr "URL(웹 주소 없음)https://."
+
+#: inc/search-list.php:111
+msgid "友链检测"
+msgstr "친구 체인 감지"
+
+#: inc/search-list.php:117
+msgid "备案查询"
+msgstr "제출 문의"
+
+#: inc/search-list.php:123
+msgid "SEO查询"
+msgstr "SEO 쿼리"
+
+#: inc/search-list.php:129
+msgid "关键词挖掘"
+msgstr "키워드 마이닝"
+
+#: inc/search-list.php:130 inc/search-list.php:136 inc/search-list.php:142
+msgid "请输入关键词"
+msgstr "키워드를 입력하십시오"
+
+#: inc/search-list.php:135
+msgid "素材搜索"
+msgstr "크리에이티브 검색"
+
+#: inc/search-list.php:141
+msgid "大数据词云"
+msgstr "빅 데이터 워드 클라우드"
+
+#: inc/search-list.php:150
+msgid "社区"
+msgstr "커뮤니티"
+
+#: inc/search-list.php:154 inc/search-list.php:155
+msgid "知乎"
+msgstr "알고 있습니다"
+
+#: inc/search-list.php:172 inc/search-list.php:173
+msgid "豆瓣"
+msgstr "두반"
+
+#: inc/search-list.php:178
+msgid "搜外问答"
+msgstr "검색 퀴즈"
+
+#: inc/search-list.php:179
+msgid "SEO问答社区"
+msgstr "SEO Q&A 커뮤니티"
+
+#: inc/search-list.php:187
+msgid "生活"
+msgstr "생활"
+
+#: inc/search-list.php:197 inc/search-list.php:198
+msgid "京东"
+msgstr "징둥"
+
+#: inc/search-list.php:203 inc/search-list.php:204
+msgid "下厨房"
+msgstr "부엌 아래로"
+
+#: inc/search-list.php:209 inc/search-list.php:210
+msgid "香哈菜谱"
+msgstr "고하 레시피"
+
+#: inc/search-list.php:221 inc/search-list.php:222
+msgid "快递100"
+msgstr "택배 100"
+
+#: inc/search-list.php:227 inc/search-list.php:228
+msgid "去哪儿"
+msgstr "어디로 가야 할까요?"
+
+#: inc/shortcode.php:246
+msgid "密码验证"
+msgstr "비밀번호 확인"
+
+#: inc/shortcode.php:252
+msgid "管理员可见"
+msgstr "관리자에게 표시"
+
+#: inc/shortcode.php:256
+msgid "作者可见"
+msgstr "작성자가 볼 수 있습니다."
+
+#: inc/shortcode.php:296
+#, php-format
+msgid "隐藏内容%s"
+msgstr "콘텐츠를 숨깁니다%s"
+
+#: inc/shortcode.php:324
+msgid "密码错误，请重新输入"
+msgstr "사용자 이름 또는 암호가 잘못되었습니다."
+
+#: inc/shortcode.php:326
+msgid "请输入密码"
+msgstr "비밀번호를 입력해 주세요"
+
+#: inc/shortcode.php:358
+msgid "隐藏内容！"
+msgstr "콘텐츠 숨기기!"
+
+#: inc/shortcode.php:359
+#, php-format
+msgid "%s后才能查看！"
+msgstr "나중에 볼 %s!"
+
+#: inc/theme-start.php:355
+msgid "您已经赞过了!"
+msgstr "당신은 그것을 좋아했습니다!"
+
+#: inc/theme-start.php:356
+msgid "谢谢点赞!"
+msgstr "좋아요를 눌러 주셔서 감사합니다!"
+
+#: inc/theme-start.php:358
+msgid "参数错误 --."
+msgstr "매개 변수 오류 --."
+
+#: inc/theme-start.php:359
+msgid "为什么不选分类。"
+msgstr "분류를 선택하지 않는 이유는 무엇입니다."
+
+#: inc/theme-start.php:360
+msgid "添加成功。"
+msgstr "추가에 성공했습니다."
+
+#: inc/theme-start.php:361
+msgid "访问超时，请再试试，或者手动填写。"
+msgstr "액세스 시간이 초과되었습니다."
+
+#: inc/theme-start.php:362
+msgid "日间模式"
+msgstr "데이 모드"
+
+#: inc/theme-start.php:366
+msgid "该网址已经存在了 --."
+msgstr "URL이 이미 있습니다--."
+
+#: inc/theme-start.php:367 templates/tools-customize.php:90
+#: templates/tools-customizeforuser.php:275
+msgid "取消"
+msgstr "취소합니다"
+
+#: inc/theme-start.php:368
+msgid "成功"
+msgstr "성공"
+
+#: inc/theme-start.php:369
+msgid "信息"
+msgstr "정보"
+
+#: inc/theme-start.php:370
+msgid "警告"
+msgstr "경고"
+
+#: inc/theme-start.php:371
+msgid "错误"
+msgstr "오류입니다"
+
+#: inc/theme-start.php:372
+msgid "网盘提取码已复制，点“确定”进入下载页面。"
+msgstr "네트워크 디스크 추출 코드가 복사되었습니다."
+
+#: inc/theme-start.php:373
+msgid "请稍候"
+msgstr "기다리세요"
+
+#: inc/theme-start.php:374
+msgid "正在处理请稍后..."
+msgstr "처리, 나중에 부탁드립니다..."
+
+#: inc/theme-start.php:376
+msgid "秒后重新发送"
+msgstr "초 후에 다시 보냅니다"
+
+#: inc/theme-start.php:377
+msgid "微信支付"
+msgstr "위챗페이"
+
+#: inc/theme-start.php:379
+msgid "请扫码支付"
+msgstr "QR 코드를 스캔하여 결제하세요."
+
+#: inc/theme-start.php:380
+msgid "支付成功，页面跳转中"
+msgstr "결제가 완료되고 페이지가 점프합니다."
+
+#: inc/theme-start.php:381
+msgid "确定要清空足迹记录吗？"
+msgstr ""
+
+#: inc/theme-start.php:403 templates/tools-customizeforuser.php:179
+#: templates/tools-hotcontent.php:42
+msgid "加载中..."
+msgstr "로드 중..."
+
+#: inc/theme-start.php:404
+msgid "再试一次"
+msgstr ""
+
+#: inc/theme-start.php:405
+msgid "向右滑动填充拼图"
+msgstr ""
+
+#: inc/theme-start.php:406
+msgid "加载失败"
+msgstr ""
+
+#: inc/theme-start.php:470 template-contribute.php:136
+#, php-format
+msgid "图片大小不能超过 %s MB"
+msgstr "이미지 크기는 %sMB를 초과할 수 없습니다."
+
+#: inc/user-functions.php:298
+#, php-format
+msgid "原图文件不存在：%s"
+msgstr ""
+
+#: inc/user-functions.php:327
+#, php-format
+msgid "不支持的图像格式：%s"
+msgstr ""
+
+#: inc/user-functions.php:331
+msgid "图像资源创建失败！"
+msgstr ""
+
+#: inc/widgets/w.about.website.php:146
+msgid "按住拖入收藏夹"
+msgstr ""
+
+#: inc/widgets/w.about.website.php:176 inc/widgets/w.about.website.php:181
+#: inc/widgets/w.about.website.php:186 inc/widgets/w.about.website.php:191
+#, php-format
+msgid "收录%s"
+msgstr ""
+
+#: inc/widgets/w.about.website.php:196
+msgid "运行天数"
+msgstr ""
+
+#: inc/widgets/w.about.website.php:201
+msgid "访问人数"
+msgstr ""
+
+#: inc/widgets/w.about.website.php:206
+msgid "评论总数"
+msgstr ""
+
+#: inc/widgets/w.about.website.php:211
+msgid "用户数量"
+msgstr ""
+
+#: inc/widgets/w.big.carousel.php:182 inc/widgets/w.big.carousel.php:195
+msgid "查看详情"
+msgstr "세부 정보 보기"
+
+#: inc/widgets/w.ranking.php:159
+msgctxt "w"
+msgid "日榜"
+msgstr "일일"
+
+#: inc/widgets/w.ranking.php:160
+msgctxt "w"
+msgid "昨日"
+msgstr "어제"
+
+#: inc/widgets/w.ranking.php:161
+msgctxt "w"
+msgid "周榜"
+msgstr "주간"
+
+#: inc/widgets/w.ranking.php:162
+msgctxt "w"
+msgid "上周"
+msgstr "지난주"
+
+#: inc/widgets/w.ranking.php:163
+msgctxt "w"
+msgid "月榜"
+msgstr "월간"
+
+#: inc/widgets/w.ranking.php:164
+msgctxt "w"
+msgid "总榜"
+msgstr "전체"
+
+#: inc/widgets/w.ranking.php:191
+msgid "查看完整榜单"
+msgstr "전체 목록보기"
+
+#: iopay/action/ajax-pay.php:41
+msgid "PHP session 数据获取失败"
+msgstr "PHP 세션 데이터 가져 오기 실패"
+
+#: iopay/action/ajax-pay.php:48
+msgid "请选择支付方式"
+msgstr "지불 방법을 선택하십시오"
+
+#: iopay/action/ajax-pay.php:54
+msgid "数据获取失败"
+msgstr "데이터 가져오기 실패"
+
+#: iopay/action/ajax-pay.php:60 iopay/functions/iopay-ajax.php:207
+msgid "订单创建失败"
+msgstr "주문 생성 실패"
+
+#: iopay/action/ajax-pay.php:85
+msgid "已占位，请5分钟内支付。"
+msgstr "지정석은 5 분 이내에 지불하십시오."
+
+#: iopay/action/ajax-pay.php:100
+msgid "未生成订单！"
+msgstr "주문이 생성되지 않았습니다!"
+
+#: iopay/action/ajax-posts.php:47 iopay/functions/iopay-ajax.php:157
+msgid "文章已发布"
+msgstr "기사가 게시되었습니다."
+
+#: iopay/action/ajax-posts.php:53
+msgid "付费发布功能已关闭"
+msgstr "유료 게시가 사용 중지되어 있습니다."
+
+#: iopay/action/ajax.php:76
+msgid "微信支付错误："
+msgstr "위챗페이 오류:"
+
+#: iopay/admin/functions/f-ad.php:214 iopay/admin/functions/f-order.php:169
+#, php-format
+msgid "Select %s"
+msgstr "%s 선택"
+
+#. translators: %s: Search query.
+#: iopay/admin/page/order.php:186
+#, php-format
+msgid "Search results for: %s"
+msgstr "다음에 대한 검색 결과: %s"
+
+#: iopay/functions/functions.php:178
+msgid "立即支付"
+msgstr "바로 결제"
+
+#: iopay/functions/functions.php:188
+msgid "暂时无法支付，请与客服联系！"
+msgstr "일시적으로 결제할 수 없으니 고객센터로 연락주세요!"
+
+#: iopay/functions/functions.php:232
+msgid "付费内容"
+msgstr "유료 콘텐츠"
+
+#: iopay/functions/functions.php:234 iopay/functions/iopay-post.php:309
+msgid "付费资源"
+msgstr "유료 리소스"
+
+#: iopay/functions/functions.php:235
+msgid "自动广告"
+msgstr "자동 광고"
+
+#: iopay/functions/functions.php:236
+msgid "付费发布"
+msgstr ""
+
+#: iopay/functions/iopay-ajax.php:117
+msgid "请填写您的的网站！"
+msgstr "웹 사이트를 작성하십시오!"
+
+#: iopay/functions/iopay-ajax.php:120
+msgid "名称不能多于20个字！"
+msgstr ""
+
+#: iopay/functions/iopay-ajax.php:123
+msgid "url格式有误！"
+msgstr "URL 형식이 잘못되었습니다!"
+
+#: iopay/functions/iopay-ajax.php:126
+msgid "联系邮箱错误！"
+msgstr "연락처 이메일 오류!"
+
+#: iopay/functions/iopay-ajax.php:133 iopay/widgets/w-auto-ad.php:408
+#, php-format
+msgid "至少需要充值%s"
+msgstr "최소한 충전이 필요합니다%s"
+
+#: iopay/functions/iopay-ajax.php:136 iopay/widgets/w-auto-ad.php:411
+#, php-format
+msgid "最高充值%s"
+msgstr "최대 충전 %s"
+
+#: iopay/functions/iopay-ajax.php:153 iopay/functions/iopay-ajax.php:164
+#: iopay/functions/iopay-ajax.php:168
+msgid "数据获取错误!"
+msgstr "데이터 수집 오류!"
+
+#: iopay/functions/iopay-ajax.php:179
+msgid "订单金额异常！"
+msgstr "주문 금액이 비정상적입니다!"
+
+#: iopay/functions/iopay-ajax.php:201
+msgid "支付"
+msgstr "알리페이"
+
+#: iopay/functions/iopay-ajax.php:221
+msgid "支付成功"
+msgstr "결제 성공"
+
+#: iopay/functions/iopay-ajax.php:257
+#, php-format
+msgid "自定义时间(%s)"
+msgstr "사용자 지정 시간(%s)"
+
+#: iopay/functions/iopay-ajax.php:263
+#, php-format
+msgid "最少%s，最多%s"
+msgstr "최소 %s, 최대 %s"
+
+#: iopay/functions/iopay-ajax.php:267
+msgid "选择时间"
+msgstr "시간 선택"
+
+#: iopay/functions/iopay-ajax.php:286
+msgid "所有"
+msgstr "모두"
+
+#: iopay/functions/iopay-ajax.php:292
+msgid "入驻位置"
+msgstr "정착지 위치"
+
+#: iopay/functions/iopay-ajax.php:295
+msgid "入驻广告"
+msgstr "들어오는 광고"
+
+#: iopay/functions/iopay-ajax.php:303
+msgid "联系邮箱"
+msgstr "담당자 이메일"
+
+#: iopay/functions/iopay-ajax.php:316
+msgid "链接参数"
+msgstr "링크 매개 변수"
+
+#: iopay/functions/iopay-ajax.php:318
+msgid "请输名称"
+msgstr "이름을 입력해 주세요"
+
+#: iopay/functions/iopay-ajax.php:319
+msgid "请输URL"
+msgstr "URL을 입력해 주세요"
+
+#: iopay/functions/iopay-ajax.php:330
+msgid "加入队列"
+msgstr "대기열에 참여"
+
+#: iopay/functions/iopay-pay.php:69 iopay/functions/iopay-pay.php:116
+#: iopay/functions/iopay-pay.php:158 iopay/functions/iopay-pay.php:266
+#: iopay/functions/iopay-pay.php:269 iopay/functions/iopay-pay.php:347
+#: iopay/functions/iopay-pay.php:442 iopay/functions/iopay-pay.php:500
+#: iopay/functions/iopay-pay.php:551 iopay/functions/iopay-pay.php:601
+msgid "支付接口参数错误！"
+msgstr "매개 변수가 잘못되었습니다!"
+
+#: iopay/functions/iopay-pay.php:89 iopay/functions/iopay-pay.php:109
+msgid "支付接口参数错误，签名失败！"
+msgstr "결제 인터페이스 매개변수가 잘못되어 서명에 실패했습니다!"
+
+#: iopay/functions/iopay-pay.php:139
+msgid "处理完成，请扫码支付"
+msgstr "처리 후 코드를 스캔하여 결제하세요."
+
+#: iopay/functions/iopay-pay.php:141
+msgid "跳转到支付宝APP付款"
+msgstr "알리페이 앱 결제로 이동"
+
+#: iopay/functions/iopay-pay.php:537
+msgid "收款码请求失败"
+msgstr "컬렉션 코드 요청이 실패했습니다."
+
+#: iopay/functions/iopay-post.php:223
+msgid "免费"
+msgstr "무료"
+
+#: iopay/functions/iopay-post.php:226 iopay/functions/iopay-post.php:260
+msgid "订单号："
+msgstr "주문 번호:"
+
+#: iopay/functions/iopay-post.php:337
+msgid "隐藏内容"
+msgstr "콘텐츠 숨기기"
+
+#: iopay/functions/iopay-post.php:383 iopay/widgets/w-buy-sidebar.php:148
+msgid "已购买"
+msgstr "구입"
+
+#: iopay/functions/iopay-post.php:470
+msgid "登录购买"
+msgstr "구매하려면 로그인하세요"
+
+#: iopay/functions/iopay-success.php:50
+#, php-format
+msgid "[%s]新自动广告需审核"
+msgstr "[%s] 새로운 자동 광고는 검토 대상입니다."
+
+#: iopay/functions/iopay-success.php:53
+#, php-format
+msgid "[%s]自动广告入驻通知"
+msgstr "[%s] 자동 광고 입력 알림"
+
+#: iopay/functions/iopay-success.php:59
+#, php-format
+msgid "您在站点「%s」申请的自动广告待审核"
+msgstr "사이트에서 '%s'을 요청한 자동 광고가 대기 중입니다."
+
+#: iopay/functions/iopay-success.php:126
+#, php-format
+msgid "错误：您的站点「%s」付费发布的内容更新状态失败"
+msgstr ""
+
+#: iopay/functions/iopay-success.php:139
+#, php-format
+msgid "您的站点「%s」新增付费发布的内容"
+msgstr ""
+
+#: iopay/widgets/w-auto-ad.php:115
+msgid "欢迎入驻！"
+msgstr "정착을 환영합니다!"
+
+#: iopay/widgets/w-auto-ad.php:262
+#, php-format
+msgid "抱歉，%s没有空位，%s 后有才空余，感谢等待！"
+msgstr ""
+"죄송합니다, %s에는 빈 자리가 없습니다, %s 후 공간이 있습니다, 기다려 주셔서 "
+"감사합니다!"
+
+#: iopay/widgets/w-auto-ad.php:308
+msgid "未知错误，请联系管理员处理。"
+msgstr "알 수 없는 오류가 발생하면 관리자에게 문의하여 처리하십시오."
+
+#: iopay/widgets/w-auto-ad.php:342
+msgid "小时"
+msgstr "시간 전"
+
+#: iopay/widgets/w-auto-ad.php:343
+msgid "天"
+msgstr "며칠 전"
+
+#: iopay/widgets/w-auto-ad.php:344
+msgid "月"
+msgstr "몇 달 전"
+
+#: iopay/widgets/w-auto-ad.php:356
+msgid "内页"
+msgstr "내부 체인"
+
+#: iopay/widgets/w-auto-ad.php:357
+msgid "所有位置"
+msgstr "모든 위치"
+
+#: search.php:44
+#, php-format
+msgid "有关“%s”的%s"
+msgstr "%s 대한 %s"
+
+#: search.php:48
+#, php-format
+msgid "“%s”的搜索结果"
+msgstr "\"%s\"에 대한 검색 결과입니다"
+
+#: sidebar-blog.php:21 sidebar-bulletin.php:24 sidebar-bulletin.php:39
+#: sidebar.php:28 sidebar.php:49 sidebar.php:62
+msgid "添加小工具"
+msgstr "가젯을 추가합니다"
+
+#: sidebar-blog.php:24
+msgid "点此为“博客布局侧边栏”添加小工具"
+msgstr "블로그 레이아웃 사이드바에 가젯을 추가하려면 클릭하십시오"
+
+#: sidebar-bulletin.php:27 sidebar-bulletin.php:42
+msgid "点此为“公告侧边栏”添加小工具"
+msgstr "공지 사이드바에 가젯을 추가하려면 클릭하십시오"
+
+#: sidebar.php:31
+msgid "点此为“正文侧边栏”添加小工具"
+msgstr "본문 사이드바에 가젯을 추가하려면 클릭합니다"
+
+#: sidebar.php:52
+msgid "点此为“页面侧边栏”添加小工具"
+msgstr "페이지 사이드바에 가젯을 추가하려면 여기를 클릭하십시오"
+
+#: sidebar.php:65
+msgid "点此为“分类归档侧边栏”添加小工具"
+msgstr "분류 아카이브 사이드바에 가젯을 추가하려면 클릭하십시오"
+
+#: single-app.php:41 single-book.php:41
+#, php-format
+msgid "相关%s"
+msgstr "관련 %s"
+
+#: single-bulletin.php:19 template-bulletin.php:31
+msgid "公告"
+msgstr "공지 사항"
+
+#: single-bulletin.php:21
+msgid "所有公告"
+msgstr "모든 공지 사항"
+
+#: single-sites.php:41
+msgid "相关导航"
+msgstr "관련 탐색"
+
+#: single.php:37
+msgid "相关文章"
+msgstr "관련 기사"
+
+#: template-blog.php:73
+msgid "最新文章"
+msgstr "최신 기사"
+
+#: template-bulletin.php:33
+msgid "总计："
+msgstr "합계:"
+
+#: template-bulletin.php:67
+msgid "Y年m月d日"
+msgstr "Y년 m월 d일"
+
+#: template-contribute.php:75
+msgid "无权操作，请联系管理员！"
+msgstr "아무 작업도 수행할 수 없습니다."
+
+#: template-contribute.php:77
+msgid "需要登录才能访问！"
+msgstr "액세스하려면 로그인이 필요합니다!"
+
+#: template-contribute.php:135
+msgid "网络连接错误！"
+msgstr "네트워크 연결 오류!"
+
+#: template-contribute.php:137
+msgid "获取失败，请再试试，或者手动填写！"
+msgstr "실패를 얻으려면 다시 시도하거나 수동으로 입력하십시오!"
+
+#: template-contribute.php:138
+msgid "获取成功，没有的请手动填写！"
+msgstr "성공, 아니 수동으로 작성하시기 바랍니다!"
+
+#: template-contribute.php:139
+msgid "访问超时，请再试试，或者手动填写！"
+msgstr "액세스 시간 초과, 다시 시도하거나 수동으로 입력하십시오!"
+
+#: template-contribute.php:140
+msgid "链接格式错误！"
+msgstr "링크 형식이 잘못되었습니다!"
+
+#: template-contribute.php:141
+msgid "请先填写网址链接！"
+msgstr "먼저 URL 링크를 입력하십시오!"
+
+#: template-contribute.php:142
+msgctxt "mce"
+msgid "图片"
+msgstr "이미지"
+
+#: template-contribute.php:143
+msgctxt "mce"
+msgid "视频"
+msgstr "비디오"
+
+#: template-contribute.php:144
+msgctxt "mce"
+msgid "附件"
+msgstr "붙이다"
+
+#: template-contribute.php:145
+msgctxt "mce"
+msgid "所有"
+msgstr "모두"
+
+#: template-contribute.php:146
+#, php-format
+msgctxt "mce"
+msgid "我的%s"
+msgstr ""
+
+#: template-contribute.php:147
+#, php-format
+msgctxt "mce"
+msgid "外链%s"
+msgstr ""
+
+#: template-contribute.php:148
+msgid "开始上传"
+msgstr ""
+
+#: template-contribute.php:149
+#, php-format
+msgid "最大支持%sMB，"
+msgstr ""
+
+#: template-contribute.php:150
+#, php-format
+msgid "单次可上传%d个文件，"
+msgstr ""
+
+#: template-contribute.php:151
+#, php-format
+msgid "选择%s"
+msgstr ""
+
+#: template-contribute.php:152
+#, php-format
+msgid "将%s拖到这里上传"
+msgstr ""
+
+#: template-contribute.php:153
+msgid "取消选中"
+msgstr ""
+
+#: template-contribute.php:154
+msgid "请选择"
+msgstr "선택해 주세요"
+
+#: template-contribute.php:155
+msgid "支持拖文件上传，支持粘贴板。"
+msgstr ""
+
+#: template-contribute.php:156
+msgid "请填写图片地址，支持批量输入，一行一个链接。"
+msgstr ""
+
+#: template-contribute.php:158
+msgid "还有文件正在上传，请勿刷新页面！"
+msgstr ""
+
+#: template-contribute.php:159
+msgid "请先上传图片！"
+msgstr "먼저 이미지를 업로드해주세요!"
+
+#: template-contribute.php:160
+msgid "文件正在上传中，请稍后操作！"
+msgstr ""
+
+#: template-contribute.php:161
+msgid "确定要删除该文件吗？删除后不可恢复！"
+msgstr ""
+
+#: template-contribute.php:163
+msgid "请输入地址！"
+msgstr ""
+
+#: template-contribute.php:164
+#, php-format
+msgid "最多可输入%d个%s地址"
+msgstr ""
+
+#: template-contribute.php:165
+msgid "待上传"
+msgstr ""
+
+#: template-contribute.php:166
+msgid "上传中..."
+msgstr "업로드..."
+
+#: template-contribute.php:167
+msgid "上传失败"
+msgstr "업로드 실패하였습니다"
+
+#: template-contribute.php:168
+msgid "上传成功"
+msgstr "업로드 성공하였습니다"
+
+#: template-contribute.php:169
+msgid "处理中..."
+msgstr ""
+
+#: template-contribute.php:171
+#, php-format
+msgid "最多上传%d个文件。"
+msgstr ""
+
+#: template-contribute.php:172
+#, php-format
+msgid "文件大小不能超过%sMB。"
+msgstr "파일 크기는 %sMB를 초과할 수 없습니다."
+
+#: template-contribute.php:173 templates/user-center.php:40
+msgid "文件类型不支持！"
+msgstr ""
+
+#: template-contribute.php:174 templates/user-center.php:41
+msgid "上传失败，请重试！"
+msgstr "업로드 실패. 다시 시도하세요!"
+
+#: template-contribute.php:175
+#, php-format
+msgid "最多只能选择%d个附件。"
+msgstr ""
+
+#: template-contribute.php:176
+msgid "不能为空"
+msgstr "비워 둘 수 없습니다"
+
+#: template-contribute.php:177
+msgid "删除"
+msgstr "삭제하다"
+
+#: template-links.php:59
+msgid "提交链接"
+msgstr "링크 제출"
+
+#: templates/breadcrumb.php:15 templates/breadcrumb.php:52
+msgid "现在位置"
+msgstr "이제 위치"
+
+#: templates/breadcrumb.php:43
+msgid "附件"
+msgstr "첨부 파일입니다"
+
+#: templates/breadcrumb.php:60
+msgid "亲，你迷路了！"
+msgstr "프로, 당신은 길을 잃었다!"
+
+#: templates/hot/hot-api.php:83 templates/hot/hot-json.php:93
+msgid "获取失败，请再试一次！"
+msgstr "실패를 얻으려면 다시 시도하십시오!"
+
+#: templates/title.php:39
+#, php-format
+msgid "%s的搜索结果"
+msgstr "%s 검색 결과입니다"
+
+#: templates/title.php:102
+#, php-format
+msgid "“%s”年所有文章"
+msgstr "\"%s\"의 모든 기사"
+
+#: templates/title.php:105
+#, php-format
+msgid "“%s”份所有文章"
+msgstr "모든 %s \"\"\"\"모든 기사\""
+
+#: templates/title.php:108
+#, php-format
+msgid "“%s”所有文章"
+msgstr "모든 %s 기사를 클릭합니다"
+
+#: templates/title.php:108
+msgid "Y年n月j日"
+msgstr "Y년 n월 j일"
+
+#: templates/title.php:120
+msgid "没有你要找的内容"
+msgstr "찾고 있는 것이 없습니다"
+
+#: templates/title.php:125
+msgid "今日热榜"
+msgstr "오늘의 핫리스트"
+
+#: templates/title.php:133
+msgid "用户信息"
+msgstr "사용자 정보"
+
+#: templates/title.php:139 templates/tools-customizeforuser.php:46
+msgid "我的收藏"
+msgstr "내 컬렉션"
+
+#: templates/title.php:142
+msgid "网址管理"
+msgstr "URL 관리"
+
+#: templates/title.php:145
+msgid "账户安全"
+msgstr "계정 보안"
+
+#: templates/title.php:155
+msgid "新标签页"
+msgstr "새 탭입니다"
+
+#: templates/title.php:173
+#, php-format
+msgid "第%s页"
+msgstr ""
+
+#: templates/tools-customize.php:19 templates/tools-customizeforuser.php:44
+msgid "我的导航"
+msgstr "내 탐색"
+
+#: templates/tools-customize.php:21 templates/tools-customizeforuser.php:48
+msgid "最近使用"
+msgstr "최근에 사용되었습니다"
+
+#: templates/tools-customize.php:74 templates/tools-customizeforuser.php:235
+msgid "没有数据！等待你的参与哦 ^_^"
+msgstr "데이터가 없습니다! 당신의 참여를 기다리고 있습니다 ^_^"
+
+#: templates/tools-customize.php:84 templates/tools-customizeforuser.php:245
+msgid "添加自定义网址"
+msgstr "맞춤 URL을 추가합니다"
+
+#: templates/tools-customize.php:84
+msgid "登录后可以保存到账号！"
+msgstr "로그인 하면 계정에 저장할 수 있습니다!"
+
+#: templates/tools-customize.php:86 templates/tools-customizeforuser.php:266
+msgid "网站名称"
+msgstr "사이트 이름입니다"
+
+#: templates/tools-customizeforuser.php:34
+msgid "每日推荐"
+msgstr "매일 추천"
+
+#: templates/tools-customizeforuser.php:227
+msgid "您还没有收藏内容！等待你的参与哦 ^_^"
+msgstr ""
+"당신은 아직 컬렉션을 사용하지 않습니다! 당신의 참여를 기다리고 있습니다 ^_^"
+
+#: templates/tools-customizeforuser.php:245
+msgid "前往用户中心管理网址更方便"
+msgstr "사용자 센터 관리 URL로 쉽게 이동할 수 있습니다"
+
+#: templates/tools-customizeforuser.php:249
+msgid "选择分类："
+msgstr "분류를 선택합니다."
+
+#: templates/tools-customizeforuser.php:260
+msgid "或者自定义分类"
+msgstr "또는 분류를 사용자 지정합니다"
+
+#: templates/tools-customizeforuser.php:268
+msgid "输入简介（选填）"
+msgstr "소개 입력(선택 사항)"
+
+#: templates/tools-customizeforuser.php:269
+msgid "网址信息获取失败，请再试试，或者手动填写。"
+msgstr "URL 정보를 얻는 데 실패했습니다."
+
+#: templates/tools-customizeforuser.php:278
+msgid "导入 chrome 书签"
+msgstr "chrome 책갈피를 가져옵니다"
+
+#: templates/user-center.php:34
+msgid "保存中..."
+msgstr "저장 중..."
+
+#: templates/user-center.php:36
+msgid "头像大小不能超过 512KB！"
+msgstr "아바타의 크기는 512KB를 초과할 수 없습니다!"
+
+#: templates/user-center.php:37
+msgid "头像设置失败！"
+msgstr "아바타 설정이 실패했습니다!"
+
+#: templates/user-center.php:38
+msgid "封面大小不能超过 1MB！"
+msgstr "커버 크기는 1MB를 초과할 수 없습니다!"
+
+#: templates/user-center.php:39
+msgid "封面设置失败！"
+msgstr "아바타 설정이 실패했습니다!"
